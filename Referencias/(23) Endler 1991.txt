@@ -1,0 +1,10 @@
+@article{endler1991,
+  author  = {J. A. Endler},
+  title   = {Variation in the appearance of guppy color patterns to guppies and their predators under different visual conditions},
+  journal = {Vision Research},
+  volume  = {31},
+  number  = {3},
+  pages   = {587--608},
+  year    = {1991},
+  doi     = {10.1016/0042-6989(91)90109-I}
+}

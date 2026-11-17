@@ -1,0 +1,7 @@
+@book{maynardsmith1982,
+  author    = {J. Maynard Smith},
+  title     = {Evolution and the Theory of Games},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge, UK},
+  year      = {1982}
+}

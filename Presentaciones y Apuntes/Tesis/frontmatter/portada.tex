@@ -1,0 +1,35 @@
+% =============================================================
+% PORTADA
+% Posiciones verticales reconstruidas directamente del PDF original.
+% =============================================================
+\thispagestyle{empty}
+\begin{center}
+
+% El logo ocupa exactamente 342.723 bp de ancho en el PDF de referencia.
+\includegraphics[width=342.723bp]{figuras/logo_uniandes.png}
+
+\vspace{28.35bp}
+{\large\scshape \facultad\\[0pt] \departamento\par}
+
+\vspace{42.5bp}
+{\huge\bfseries \titulotesis\par}
+{\Large\bfseries \subtitulotesis\par}
+
+\vspace{56.7bp}     
+{\bfseries Author:} \autor\\
+{\bfseries E-mail:} \correoautor
+
+\vspace{14.2bp}
+{\bfseries Advisor:} \asesor\\
+{\bfseries E-mail:} \correoasesor
+
+% En el PDF original existe espacio libre para una posible firma del asesor.
+% Si se desea añadir una firma como imagen, conviene superponerla y NO
+% introducir espacio vertical adicional, para no mover la fecha.
+
+\vfill
+{\large Date: \fechatesis}\par
+% Ajuste para ubicar la fecha en la misma cota vertical del PDF original.
+\vspace*{-9.96bp}
+
+\end{center}

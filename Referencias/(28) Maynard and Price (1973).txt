@@ -1,0 +1,10 @@
+@article{maynardsmith1973,
+  author  = {J. Maynard Smith and G. R. Price},
+  title   = {The logic of animal conflict},
+  journal = {Nature},
+  volume  = {246},
+  number  = {5427},
+  pages   = {15--18},
+  year    = {1973},
+  doi     = {10.1038/246015a0}
+}

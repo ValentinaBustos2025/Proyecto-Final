@@ -1,0 +1,7 @@
+@book{binmore2007,
+  author    = {K. Binmore},
+  title     = {Game Theory: A Very Short Introduction},
+  publisher = {Oxford University Press},
+  address   = {Oxford, UK},
+  year      = {2007}
+}

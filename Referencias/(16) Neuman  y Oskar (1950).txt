@@ -1,0 +1,7 @@
+@book{vonneumann1944,
+  author    = {J. von Neumann and O. Morgenstern},
+  title     = {The Theory of Games and Economic Behavior},
+  publisher = {Princeton University Press},
+  address   = {Princeton, NJ, USA},
+  year      = {1944}
+}

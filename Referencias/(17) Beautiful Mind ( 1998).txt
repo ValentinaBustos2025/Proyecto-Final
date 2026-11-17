@@ -1,0 +1,7 @@
+@book{nasar1998,
+  author    = {S. Nasar},
+  title     = {A Beautiful Mind},
+  publisher = {Simon \& Schuster},
+  address   = {New York, NY, USA},
+  year      = {1998}
+}

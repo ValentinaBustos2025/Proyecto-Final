@@ -1,0 +1,377 @@
+
+\section{Methodology}
+\label{sec:methodology}
+
+To construct and characterize evolutionary landscapes, three models of increasing complexity were considered: first, a constant-payoff model; second, a frequency-dependent payoff model; and finally, a nonlinear extension incorporating an additional reproductive contribution.
+These models describe the interplay between sexual selection and predation in male guppies \textit{Poecilia Reticulata}, providing a biological framework for examining how different fitness formulations influence evolutionary tendencies. Deterministic stability analysis and replicator dynamics were employed to identify the equilibrium structure of each model, while the Moran process, Markov chains, and the master equation were used to incorporate stochastic evolutionary effects. Together, these approaches provided the basis for constructing and comparing mean-fitness, fitness-difference, and evolutionary drift surfaces. Numerical calculations were performed in Python using \texttt{NumPy} and \texttt{SciPy}, while \texttt{Matplotlib} and \texttt{Plotly} were employed for visualization. \\ 
+
+
+
+\subsection{Biological Parameters}
+\label{sec:biological_parameters}
+
+The evolutionary models incorporate biologically motivated parameters representing sexual selection, predation vulnerability, and genetic variation in male guppies. The parameters $S_a$ and $S_b$ characterize the relative reproductive success of phenotypes A and B, respectively, while $D_a$ and $D_b$ represent their corresponding predation-related penalties. These contributions are introduced as modifications to a common baseline fitness. The sexual selection parameters ($S_a=0.86$, $S_b=0.53$), whereas the predation parameters ($D_a=0.107$, $D_b=0.023$). The relative differences between the corresponding model factors were calculated as
+
+\begin{equation}
+    \left(\frac{1+S_a}{1+S_b}-1\right)\times100
+    \approx 21.57\%,
+    \label{eq:relativeSucess}
+\end{equation}
+
+and
+
+\begin{equation}
+    \left(\frac{1+D_a}{1+D_b}-1\right)\times100
+    \approx 8.21\%.
+    \label{eq:relativeDead}
+\end{equation}
+
+For the optional mutation mechanisms, the characteristic mutation-related timescale was estimated as $\mu^*\approx1.42\times10^3$ generations, corresponding to the mean waiting time for a mutation within one copy of the genomic region considered. This value provides a reference for the mutation schemes incorporated into the stochastic simulations, rather than a directly measured rate of phenotypic change. The estimation procedures and underlying biological assumptions are detailed in Appendix \ref{sec: Appendix Sa, Sb, Da, Db, mutation}.\\
+
+The evolutionary state is represented by the frequency $p\in[0,1]$ of phenotype A, while $1-p$ represents the frequency of phenotype B. Predation intensity is described by the dimensionless parameter $\eta_d\in[0,1]$. These variables define the parameter space used to construct the evolutionary landscapes. Additional parameters are introduced in the corresponding models. In particular, $r_0$ controls an additional reproductive advantage, whereas $\eta_c$ defines a characteristic predation threshold in the nonlinear extension. The baseline biological parameters were held fixed across the three model formulations to isolate the effects of their different mathematical structures on the resulting evolutionary landscapes. 
+
+
+\subsection{Constant-Payoff Model}
+\label{sec:constant_payoff_methodology}
+
+The first model was formulated using a payoff matrix whose entries are independent of phenotypic frequency. This approximation provides a baseline evolutionary landscape in which reproductive and predation-related contributions depend on environmental conditions but not directly on population composition. The entries of the payoff matrix were defined as
+
+\begin{equation}
+W_{AA}(\eta_d)=\frac{1+S_a(1-\eta_d)}{1+D_a\eta_d},
+\qquad
+W_{AB}(\eta_d,r_0)=W_{AA}(\eta_d)+r_0.
+\label{eq:constant_payoff_A}
+\end{equation}
+
+\begin{equation}
+W_{BA}(\eta_d)=\frac{1+S_b(1-\eta_d)}{1+D_b\eta_d},
+\qquad
+W_{BB}(\eta_d)=W_{BA}(\eta_d).
+\label{eq:constant_payoff_B}
+\end{equation}
+
+The parameter $r_0\in[0,0.25]$ represents an additional reproductive advantage of phenotype A when interacting with phenotype B. The resulting expected fitness functions are
+
+\begin{equation}
+\Pi_A(p,\eta_d,r_0)=W_{AA}(\eta_d)+(1-p)r_0.
+\label{eq:constant_fitness_A}
+\end{equation}
+
+\begin{equation}
+\Pi_B(p,\eta_d)=W_{BB}(\eta_d).
+\label{eq:constant_fitness_B}
+\end{equation}
+
+
+Although the payoff entries do not depend explicitly on \(p\), the expected fitness of phenotype A varies linearly with its frequency through the relative abundance of phenotype B. The model therefore provides a simple analytical reference for examining how the additional reproductive advantage modifies the fitness difference across population compositions. In particular,
+
+\begin{equation}
+\Delta\Pi(p,\eta_d,r_0)
+=
+W_{AA}(\eta_d)-W_{BB}(\eta_d)
++r_0(1-p).
+\label{eq:constant_fitness_difference}
+\end{equation}
+
+The equilibrium structure associated with this expression was investigated using the stability conditions of evolutionary game theory. Representative parameter combinations were identified through numerical optimization and root-finding routines implemented in \texttt{SciPy}. In addition, a systematic sweep was performed over values of \(\eta_d\in[0,1]\) and values of \(r_0\in[0,0.25]\) to classify the resulting evolutionary regimes. \\ 
+
+
+\subsection{Frequency-Dependent Payoff Model}
+\label{sec:frequency_dependent_methodology}
+
+The second model introduces an explicit dependence of the payoff entries on phenotypic frequency. This extension was developed to examine how population composition modifies the selective advantages of the competing phenotypes and, consequently, the structure of the corresponding evolutionary landscapes. \footnote{The additional reproductive parameter \(r_0\) was omitted in this formulation to isolate the effects of frequency-dependent payoffs.} The payoff entries were defined as
+
+
+\begin{equation}
+W_{AA}(\eta_d)=\frac{1+S_a(1-\eta_d)}{1+D_a\eta_d},
+\qquad
+W_{AB}(p,\eta_d)=\frac{1+S_a(1-\eta_d)}{1+D_a\eta_d p}.
+\label{eq:frequency_dependent_A}
+\end{equation}
+
+\begin{equation}
+W_{BA}(p,\eta_d)=\frac{1+S_b(1-\eta_d)}{1+D_b\eta_d(1-p)},
+\qquad
+W_{BB}(\eta_d)=\frac{1+S_b(1-\eta_d)}{1+D_b\eta_d}.
+\label{eq:frequency_dependent_B}
+\end{equation}
+
+The frequency-dependent denominators introduce different predation-related contributions according to the relative abundance of phenotypes A and B. The expected fitness functions are consequently given by
+
+\begin{equation}
+\Pi_A(p,\eta_d)
+=
+pW_{AA}(\eta_d)
++(1-p)W_{AB}(p,\eta_d).
+\label{eq:frequency_fitness_A}
+\end{equation}
+
+\begin{equation}
+\Pi_B(p,\eta_d)
+=
+pW_{BA}(p,\eta_d)
++(1-p)W_{BB}(\eta_d).
+\label{eq:frequency_fitness_B}
+\end{equation}
+
+Unlike the constant-payoff model, the frequency dependence of the payoff entries introduces a nonlinear relationship between phenotypic composition and expected fitness. Consequently, the fitness difference $\Delta\Pi(p,\eta_d)$ may exhibit multiple zeros and changes in sign, potentially giving rise to different equilibrium configurations and stability regimes. These features were investigated numerically by identifying equilibrium solutions and evaluating their stability using the complete frequency-dependent fitness functions. A systematic sweep over $\eta_d\in[0,1]$ was performed to examine how predation intensity modifies the equilibrium structure and the direction of evolutionary selection. \\ 
+
+
+\subsection{Nonlinear Reproductive-Advantage Model}
+\label{sec:nonlinear_reproductive_methodology}
+
+The third model extends the frequency-dependent formulation by introducing a nonlinear reproductive contribution that depends simultaneously on phenotypic frequency and predation intensity. The purpose of this extension is to investigate how an additional ecological constraint on reproductive success modifies the resulting evolutionary landscape.  The nonlinear contribution was defined as
+
+\begin{equation}
+r(p,\eta_d,\eta_c,r_0)
+=
+S_a r_0(1-p)
+\max\left(0,1-\frac{\eta_d}{\eta_c}\right),
+\label{eq:nonlinear_reproductive_term}
+\end{equation}
+
+where \(r_0\) determines the magnitude of the additional reproductive contribution and \(\eta_c\) represents a characteristic predation threshold.  The factor \(1-p\) introduces a decreasing contribution as phenotype A becomes more abundant, while the predation-dependent factor progressively suppresses the additional advantage as \(\eta_d\) approaches \(\eta_c\). For \(\eta_d\geq\eta_c\), the nonlinear contribution vanishes. \\ 
+
+In the current computational formulation, this term was incorporated into the payoff \(W_{AA}\):
+
+\begin{equation}
+W_{AA}^{(3)}(p,\eta_d)
+=
+\frac{1+S_a(1-\eta_d)}{1+D_a\eta_d}
++
+r(p,\eta_d,\eta_c,r_0).
+\label{eq:nonlinear_WAA}
+\end{equation}
+
+
+The equilibrium structure of the constant-payoff model was examined using evolutionary stability conditions, numerical root-finding, and parameter optimization implemented in \texttt{SciPy}. A systematic exploration of the parameter space $(\eta_d,r_0)$ was performed to classify the evolutionary regimes and identify representative parameter combinations. The deterministic behavior was visualized through replicator trajectories and evolutionary flow diagrams, allowing equilibrium stability and the direction of selection to be examined. The corresponding fitness difference and mean population fitness were represented as three-dimensional surfaces over phenotypic frequency and predation intensity. Stochastic analyses based on the Moran process were also used to examine fixation probabilities, population-frequency trajectories, and evolutionary drift. These representations establish a baseline for comparing the effects of the additional mechanisms introduced in the subsequent models.  \\ 
+
+
+The three models were subsequently examined using a common deterministic and stochastic framework. Equilibrium configurations and their stability were characterized through evolutionary game theory, while the replicator equation was integrated numerically to study evolutionary trajectories under different initial conditions. Stochastic dynamics were investigated using the Moran process, Markov chains, and the master equation to analyze phenotypic fluctuations, fixation probabilities, and absorption times. These simulations were complemented by evolutionary flow diagrams and heatmaps illustrating changes in population composition across predation intensities. Finally, mean-fitness, fitness-difference, and evolutionary drift landscapes were constructed or estimated, as applicable, to characterize and compare the selective tendencies associated with each model.\\ 
+
+
+\subsection{Stochastic Evolutionary Drift from the Moran Process}
+\label{sec:moran_methodology}
+
+To incorporate demographic fluctuations into the evolutionary landscape, a finite-population Moran process was implemented for each payoff model. The population was represented by \(N\) individuals belonging to one of two phenotypic classes, with its state determined by the number \(i\) of individuals exhibiting phenotype A. \\ 
+
+At each step of the process, one individual was selected for reproduction with a probability proportional to its expected fitness, while another individual was selected uniformly for replacement. Consequently, the frequency of phenotype A could increase by \(1/N\), decrease by \(1/N\), or remain unchanged. \\ 
+
+The probabilities of these events were calculated using the expected fitness functions of the corresponding model:
+
+\begin{equation}
+T_i^+
+=
+\frac{i\Pi_A}{i\Pi_A+(N-i)\Pi_B}
+\frac{N-i}{N},
+\label{eq:method_moran_plus}
+\end{equation}
+
+\begin{equation}
+T_i^-
+=
+\frac{(N-i)\Pi_B}{i\Pi_A+(N-i)\Pi_B}
+\frac{i}{N}.
+\label{eq:method_moran_minus}
+\end{equation}
+
+The probability of remaining in the same state was obtained from \(T_i^0=1-T_i^+-T_i^-\). \\ 
+
+These probabilities define the expected change in phenotypic frequency during a single reproduction--replacement event. The corresponding evolutionary drift is
+
+\begin{equation}
+v_M(p,\eta_d)
+=
+\frac{T_i^+-T_i^-}{N},
+\label{eq:method_moran_drift}
+\end{equation}
+
+where \(p=i/N\). Substituting the transition probabilities yields
+
+\begin{equation}
+v_M(p,\eta_d)
+=
+\frac{p(1-p)}{N}
+\frac{\Pi_A(p,\eta_d)-\Pi_B(p,\eta_d)}
+{\overline{\Pi}(p,\eta_d)},
+\label{eq:method_moran_drift_fitness}
+\end{equation}
+
+with \(\overline{\Pi}=p\Pi_A+(1-p)\Pi_B\). \\ 
+
+This expression provides a direct connection between the payoff-based evolutionary model and the expected stochastic change in population composition. Since the expected fitness values are positive, the sign of the drift in interior states is determined by the fitness difference. Its magnitude, however, also depends on population size, population composition, and mean fitness. \\ 
+
+Individual realizations of the Moran process were generated to examine fluctuations around this expected behavior. The expected fitness values were recalculated after each change in population composition, preserving the frequency dependence of the corresponding payoff model. \\ 
+
+The main computational framework considered population sizes \(N=10\) and \(N=100\), with stochastic trajectories of up to \(10^4\) reproduction--replacement events. The simulations were performed without mutation for the principal landscape calculations, so that the states \(p=0\) and \(p=1\) remained absorbing. \\ 
+
+The principal role of these simulations was to obtain and evaluate the evolutionary drift associated with the different fitness formulations, rather than to reconstruct individual biological population histories. \\ 
+
+
+\subsection{Markov Chains and Master Equation}
+\label{sec:markov_methodology}
+
+The finite-population Moran process was represented as a discrete-time Markov chain with \(N+1\) possible states, corresponding to \(i=0,1,\ldots,N\) individuals exhibiting phenotype A. The transition probabilities obtained from the expected fitness functions were assembled into a tridiagonal transition matrix \(M\), whose nonzero entries describe transitions between neighboring population states and the probability of remaining in the same state. \\ 
+
+In the absence of mutation, the boundary states \(i=0\) and \(i=N\) were defined as absorbing. The initial probability distribution was concentrated at the state corresponding to approximately equal proportions of the two phenotypes:
+
+\begin{equation}
+x_i^{(0)}
+=
+\begin{cases}
+1, & i=\lfloor N/2\rfloor,\\
+0, & \text{otherwise}.
+\end{cases}
+\label{eq:initial_markov_distribution}
+\end{equation}
+
+The probability distribution was evolved through successive applications of the transition matrix,
+
+\begin{equation}
+\mathbf{x}^{(n+1)}
+=
+\mathbf{x}^{(n)}M,
+\label{eq:method_markov_evolution}
+\end{equation}
+
+where \(n\) represents the number of Markov chain steps. This numerical implementation corresponds to the discrete master equation introduced in the theoretical framework. \\ 
+
+The cumulative fixation probabilities of phenotypes A and B were obtained from the boundary components \(x_N^{(n)}\) and \(x_0^{(n)}\), respectively. The probability of remaining in transient population states was calculated as 
+
+\begin{equation}
+P_{\mathrm{transient}}(n)
+=
+\sum_{i=1}^{N-1}x_i^{(n)}.
+\label{eq:method_transient_probability}
+\end{equation}
+
+The temporal mean and variance of the phenotype frequency were also evaluated from the evolving probability distribution. These quantities allow the expected population composition and its fluctuations to be examined without relying exclusively on individual stochastic trajectories. \\
+
+To characterize the persistence of transient states, the mean absorption time was calculated using the transient submatrix \(Q\), obtained by removing the absorbing states from \(M\). The vector of mean absorption times was determined by solving
+
+\begin{equation}
+(I-Q)\mathbf{t}=\mathbf{1}.
+\label{eq:method_mean_absorption}
+\end{equation}
+
+Eventual fixation probabilities were similarly obtained by solving the corresponding linear system for absorption into the phenotype-A boundary state. \\ 
+
+A separate numerical convergence criterion was defined as the first Markov chain step for which the total transient probability became smaller than a prescribed tolerance \(\varepsilon\). In the main parameter sweeps, \(\varepsilon=10^{-6}\) was used, with a maximum of \(10^5\) iterations for the convergence test. The evolution of the probability distribution was additionally evaluated over \(15\,000\) steps. \\ 
+
+These calculations provide a probabilistic reference for interpreting the evolutionary landscapes. In particular, they allow the expected local direction of evolution to be distinguished from the long-term effects of stochastic absorption, which may occur even when the deterministic model possesses a stable interior equilibrium.
+
+\subsection{Construction of Evolutionary Fitness Landscapes}
+\label{sec:fitness_methodology}
+
+The central computational procedure of this investigation consists of constructing evolutionary surfaces that characterize the dependence of fitness and evolutionary change on population composition and environmental conditions.
+
+For each evolutionary model, the expected fitness functions were evaluated as functions of phenotype-A frequency \(p\) and predation intensity \(\eta_d\). These variables define a two-dimensional parameter space over which three complementary quantities can be represented: mean population fitness, the fitness difference between phenotypes, and evolutionary drift.
+
+The mean population fitness was calculated as
+
+\begin{equation}
+\overline{\Pi}(p,\eta_d)
+=
+p\Pi_A(p,\eta_d)
++
+(1-p)\Pi_B(p,\eta_d).
+\label{eq:method_fitness_landscape}
+\end{equation}
+
+This quantity describes the average expected reproductive performance of the population at a given phenotypic composition and predation intensity. Its surface representation allows regions of comparatively high and low population fitness to be identified.
+
+The relative selective advantage between phenotypes was characterized through the fitness difference,
+
+\begin{equation}
+\Delta\Pi(p,\eta_d)
+=
+\Pi_A(p,\eta_d)-\Pi_B(p,\eta_d).
+\label{eq:method_fitness_difference}
+\end{equation}
+
+Positive values of \(\Delta\Pi\) indicate a selective advantage for phenotype A, whereas negative values indicate an advantage for phenotype B. The condition \(\Delta\Pi=0\) identifies compositions where neither phenotype has a relative fitness advantage, providing a direct connection between the fitness-difference surface and the equilibrium structure obtained from the replicator equation.
+
+Unlike the mean-fitness surface, the fitness-difference surface therefore contains explicit directional information about selection. However, it does not by itself describe the rate of stochastic evolutionary change, which also depends on population size and the normalization of reproductive probabilities.
+
+To characterize this directional behavior in finite populations, the evolutionary drift was considered as a third surface,
+
+\begin{equation}
+Z_v(p,\eta_d;N)
+=
+v_M(p,\eta_d;N),
+\label{eq:method_drift_surface}
+\end{equation}
+
+where \(v_M\) is the expected change in phenotype-A frequency per Moran step.
+
+The three quantities were evaluated numerically over grids of phenotype frequencies and predation intensities. The resulting values were organized as matrices representing surfaces in a three-dimensional coordinate system, with \(p\) and \(\eta_d\) defining the horizontal coordinates and the corresponding evolutionary quantity defining the vertical coordinate.
+
+The constant-payoff model was used to implement and evaluate the initial surface-construction procedures. The same framework was designed to accommodate the frequency-dependent and nonlinear payoff functions, enabling a systematic comparison of landscape structures as the biological complexity of the model increases.
+
+The surfaces were treated as complementary representations rather than interchangeable definitions of a single evolutionary potential. In particular, high mean fitness does not necessarily imply an evolutionarily stable population composition, while the sign of the fitness difference and the evolutionary drift directly indicates the local direction of evolutionary change.
+
+\subsection{Numerical Estimation of the Evolutionary Drift Landscape}
+\label{sec:stochastic_drift_methodology}
+
+In addition to the analytical expression for the expected Moran drift, a numerical estimator was constructed from independent stochastic population trajectories. This procedure was designed to characterize the average evolutionary displacement generated by selection and demographic fluctuations over a finite number of reproduction--replacement events. \\ 
+
+For a prescribed initial phenotype frequency \(p_0\) and predation intensity \(\eta_d\), \(R\) independent realizations of the Moran process were simulated. Each realization was evolved for \(k\) Markov chain steps, and the change in phenotype-A frequency was recorded. \\ 
+
+The mean evolutionary drift over the selected interval was estimated as
+
+\begin{equation}
+\widehat{v}_k(p_0,\eta_d)
+=
+\frac{1}{R}
+\sum_{r=1}^{R}
+\frac{p_r(k)-p_r(0)}{k},
+\label{eq:method_empirical_drift}
+\end{equation}
+
+where \(p_r(0)\) and \(p_r(k)\) denote the initial and final frequencies in realization \(r\). \\ 
+
+This estimator measures the average finite-time change in phenotypic frequency per Markov chain step. Unlike the instantaneous drift calculated directly from the transition probabilities, the estimator incorporates changes in the population state throughout the simulation interval.\\ 
+
+For each parameter combination, the sample standard deviation of the individual frequency-change rates was calculated, together with the corresponding standard error,
+
+\begin{equation}
+\operatorname{SE}(\widehat v_k)
+=
+\frac{s_v}{\sqrt{R}},
+\label{eq:method_drift_error}
+\end{equation}
+
+where \(s_v\) is the sample standard deviation of the rates obtained from the independent realizations. \\ 
+
+The estimator was evaluated over a grid of initial frequencies and predation intensities. Each grid point was associated with a separate group of stochastic realizations, and the resulting average rates were assembled into a three-dimensional evolutionary drift surface,
+
+\begin{equation}
+Z_{\mathrm{drift}}(p_0,\eta_d)
+=
+\widehat v_k(p_0,\eta_d).
+\label{eq:method_empirical_drift_surface}
+\end{equation}
+
+The initial numerical implementation considered population sizes \(N=10\) and \(N=100\), using ten values of the initial phenotype frequency and ten values of predation intensity. For the constant-payoff model, five reproductive-advantage values were examined over \(r_0\in[0,0.25]\). Each surface point was estimated using five independent realizations of \(10^4\) Moran steps. \\
+
+The resulting landscape describes the average displacement of the evolutionary state over the prescribed observation interval. Positive values indicate a net tendency toward increasing phenotype-A frequency, while negative values indicate a net tendency toward decreasing frequency. \\ 
+
+Because the estimator is based on finite-time displacements, its numerical values may depend on the duration of the simulation, population size, and initial condition. It was therefore distinguished from the instantaneous Moran drift, even though both quantities describe directional evolutionary change. \\ 
+
+This stochastic construction provides the principal numerical tool for investigating how the evolutionary landscape is modified by population size, predation intensity, and the mathematical form of the fitness functions.
+
+
+\subsection{Gaussian Smoothing and Surface Visualization}
+\label{sec:landscape_visualization}
+
+The stochastic drift surfaces obtained from a finite number of realizations exhibit fluctuations associated with sampling variability. To facilitate visualization of their large-scale structure, a two-dimensional Gaussian filter was applied to the estimated mean-drift values. \\ 
+
+The smoothing procedure was implemented using \texttt{scipy.ndimage.gaussian\_filter}, with a standard deviation of \(\sigma=1\) in grid units. The filter was applied after averaging the independent stochastic realizations, rather than directly to the individual trajectories. \\ 
+
+For the mutation-free simulations, the drift values at the absorbing boundaries \(p_0=0\) and \(p_0=1\) were preserved after filtering. This prevents the smoothing operation from introducing artificial evolutionary changes at population compositions where the original stochastic process is absorbing. \\ 
+
+Both the unfiltered and Gaussian-smoothed surfaces were retained for comparison. The unfiltered estimates were used as the quantitative reference, while the smoothed representations were employed to improve the visual identification of broad directional patterns. \\ 
+
+The mean-fitness, fitness-difference, and evolutionary drift surfaces were represented using three-dimensional graphical routines implemented in Plotly. The corresponding parameter values and population sizes were included in the visualizations to allow comparisons between different evolutionary conditions. \\ 
+
+Smoothing was treated exclusively as a visualization procedure. In particular, changes in the apparent location of zero crossings, extrema, or equilibrium boundaries introduced by filtering were not considered sufficient evidence of changes in the underlying evolutionary system. \\ 

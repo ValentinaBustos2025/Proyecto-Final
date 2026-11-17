@@ -1,0 +1,7 @@
+@book{ryan1985,
+  author    = {M. J. Ryan},
+  title     = {The Túngara Frog: A Study in Sexual Selection and Communication},
+  publisher = {University of Chicago Press},
+  address   = {Chicago, IL, USA},
+  year      = {1985}
+}

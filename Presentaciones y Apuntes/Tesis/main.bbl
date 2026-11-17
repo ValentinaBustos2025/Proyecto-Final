@@ -1,0 +1,1888 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{nowakEvolutionaryDynamicsExploring2006}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=2f954755092805dab4f5c507e593ae00}{%
+           family={Nowak},
+           familyi={N\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, Mass}%
+      }
+      \list{publisher}{1}{%
+        {Belknap Press of Harvard University Press}%
+      }
+      \strng{namehash}{2f954755092805dab4f5c507e593ae00}
+      \strng{fullhash}{2f954755092805dab4f5c507e593ae00}
+      \strng{fullhashraw}{2f954755092805dab4f5c507e593ae00}
+      \strng{bibnamehash}{2f954755092805dab4f5c507e593ae00}
+      \strng{authorbibnamehash}{2f954755092805dab4f5c507e593ae00}
+      \strng{authornamehash}{2f954755092805dab4f5c507e593ae00}
+      \strng{authorfullhash}{2f954755092805dab4f5c507e593ae00}
+      \strng{authorfullhashraw}{2f954755092805dab4f5c507e593ae00}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-674-02338-3}
+      \field{langid}{english}
+      \field{pagetotal}{363}
+      \field{shorttitle}{Evolutionary Dynamics}
+      \field{title}{Evolutionary Dynamics: Exploring the Equations of Life}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\Y394CC54\Nowak - 2006 - Evolutionary dynamics exploring the equations of life.pdf
+      \endverb
+      \keyw{Evolution (Biology),Mathematical models}
+    \endentry
+    \entry{houdeMATECHOICEBASED1987}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=fe0c9501ce2e4962d771a70afe2e35a1}{%
+           family={Houde},
+           familyi={H\bibinitperiod},
+           given={Anne\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \strng{fullhash}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \strng{fullhashraw}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \strng{bibnamehash}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \strng{authorbibnamehash}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \strng{authornamehash}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \strng{authorfullhash}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \strng{authorfullhashraw}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study tested the effect of differences in the extent of orange pigment in the color pattern of male guppies on the sexual responsiveness of females. Fish used in this study were descendants of a single natural population from the Paria River of Trinidad. Males from this population have unusually large, brilliant orange spots. I used three experimental approaches to test for discrimination by females among males based on the relative area of orange in color patterns: I) the time to mating when a male was presented to a virgin female; 2) the frequency of sexual responses of females to passing, nondisplaying males; and 3) the proportion of a male's courtship displays that elicited a female sexual response. In all three experiments, females appeared to discriminate against males with less-than-average amounts of orange in their color patterns. In at least one experiment, however, the increase in female responsiveness with increasing amounts of orange leveled off and possibly decreased at high levels of orangeness. This suggests that there may be no advantage of increased amounts of orange above a certain level. These results suggest that female choice is a mechanism for the evolution of color patterns in guppies and may have contributed to the distinctive color pattern of the Paria population.}
+      \field{issn}{0014-3820, 1558-5646}
+      \field{journaltitle}{Evolution}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Evolution}
+      \field{title}{Mate Choice Based upon Naturally Occurring Color‐pattern Variation in a Guppy Population}
+      \field{urlday}{7}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{41}
+      \field{year}{1987}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1111/j.1558-5646.1987.tb05766.x
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\9H2GW45J\Houde - 1987 - MATE CHOICE BASED UPON NATURALLY OCCURRING COLOR‐PATTERN VARIATION IN A GUPPY POPULATION.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/evolut/article/41/1/1/6870862
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/evolut/article/41/1/1/6870862
+      \endverb
+    \endentry
+    \entry{magnhagen1991}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=331f7068871742c815a175ab3c942fe1}{%
+           family={Magnhagen},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{331f7068871742c815a175ab3c942fe1}
+      \strng{fullhash}{331f7068871742c815a175ab3c942fe1}
+      \strng{fullhashraw}{331f7068871742c815a175ab3c942fe1}
+      \strng{bibnamehash}{331f7068871742c815a175ab3c942fe1}
+      \strng{authorbibnamehash}{331f7068871742c815a175ab3c942fe1}
+      \strng{authornamehash}{331f7068871742c815a175ab3c942fe1}
+      \strng{authorfullhash}{331f7068871742c815a175ab3c942fe1}
+      \strng{authorfullhashraw}{331f7068871742c815a175ab3c942fe1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in Ecology \& Evolution}
+      \field{number}{6}
+      \field{title}{Predation Risk as a Cost of Reproduction}
+      \field{volume}{6}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \field{pages}{183\bibrangedash 186}
+      \range{pages}{4}
+    \endentry
+    \entry{godinPredatorPreferenceBrightly2003}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=412b6a7c15330b8d64f1de384f153858}{%
+           family={Godin},
+           familyi={G\bibinitperiod},
+           given={J.-G.\bibnamedelimi J.},
+           giveni={J\bibinithyphendelim G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{412b6a7c15330b8d64f1de384f153858}
+      \strng{fullhash}{412b6a7c15330b8d64f1de384f153858}
+      \strng{fullhashraw}{412b6a7c15330b8d64f1de384f153858}
+      \strng{bibnamehash}{412b6a7c15330b8d64f1de384f153858}
+      \strng{authorbibnamehash}{412b6a7c15330b8d64f1de384f153858}
+      \strng{authornamehash}{412b6a7c15330b8d64f1de384f153858}
+      \strng{authorfullhash}{412b6a7c15330b8d64f1de384f153858}
+      \strng{authorfullhashraw}{412b6a7c15330b8d64f1de384f153858}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{issn}{14657279}
+      \field{journaltitle}{Behavioral Ecology}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{2}
+      \field{shorttitle}{Predator Preference for Brightly Colored Males in the Guppy}
+      \field{title}{Predator Preference for Brightly Colored Males in the Guppy: A Viability Cost for a Sexually Selected Trait}
+      \field{urlday}{7}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{14}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{194\bibrangedash 200}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1093/beheco/14.2.194
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\VSCW53FN\Godin - 2003 - Predator preference for brightly colored males in the guppy a viability cost for a sexually selecte.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/beheco/article-lookup/doi/10.1093/beheco/14.2.194
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/beheco/article-lookup/doi/10.1093/beheco/14.2.194
+      \endverb
+    \endentry
+    \entry{lamarckPhilosophieZoologique1809}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=751ba4db862b563d1469d174878f3720}{%
+           family={Lamarck},
+           familyi={L\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Dentu}%
+      }
+      \strng{namehash}{751ba4db862b563d1469d174878f3720}
+      \strng{fullhash}{751ba4db862b563d1469d174878f3720}
+      \strng{fullhashraw}{751ba4db862b563d1469d174878f3720}
+      \strng{bibnamehash}{751ba4db862b563d1469d174878f3720}
+      \strng{authorbibnamehash}{751ba4db862b563d1469d174878f3720}
+      \strng{authornamehash}{751ba4db862b563d1469d174878f3720}
+      \strng{authorfullhash}{751ba4db862b563d1469d174878f3720}
+      \strng{authorfullhashraw}{751ba4db862b563d1469d174878f3720}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Philosophie Zoologique, Ou {{Exposition}} Des Considérations Relatives à l'histoire Naturelle Des Animaux}
+      \field{year}{1809}
+      \field{dateera}{ce}
+    \endentry
+    \entry{bartonApplicationStatisticalPhysics2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=2729e1428446d3a26b8a1ec477160379}{%
+           family={Barton},
+           familyi={B\bibinitperiod},
+           given={N.H.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e077e729766096f98cb5bc18b9283c6d}{%
+           family={Coe},
+           familyi={C\bibinitperiod},
+           given={J.B.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{aff23adecd6aef0d9861d621659f007f}
+      \strng{fullhash}{aff23adecd6aef0d9861d621659f007f}
+      \strng{fullhashraw}{aff23adecd6aef0d9861d621659f007f}
+      \strng{bibnamehash}{aff23adecd6aef0d9861d621659f007f}
+      \strng{authorbibnamehash}{aff23adecd6aef0d9861d621659f007f}
+      \strng{authornamehash}{aff23adecd6aef0d9861d621659f007f}
+      \strng{authorfullhash}{aff23adecd6aef0d9861d621659f007f}
+      \strng{authorfullhashraw}{aff23adecd6aef0d9861d621659f007f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There is a close analogy between statistical thermodynamics and the evolution of allele frequencies under mutation, selection and random drift. Wright’s formula for the stationary distribution of allele frequencies is analogous to the Boltzmann distribution in statistical physics. Population size, 2N, plays the role of the inverse temperature, 1=kT, and determines the magnitude of random fluctuations. Log mean fitness, logðW¯ Þ, tends to increase under selection, and is analogous to a (negative) energy; a potential function, U, increases under mutation in a similar way. An entropy, SH, can be defined which measures the deviation from the distribution of allele frequencies expected under random drift alone; the sum G ¼ E½logðW¯ Þ þ U þ SH gives a free fitness that increases as the population evolves towards its stationary distribution. Usually, we observe the distribution of a few quantitative traits that depend on the frequencies of very many alleles. The mean and variance of such traits are analogous to observable quantities in statistical thermodynamics. Thus, we can define an entropy, SO, which measures the volume of allele frequency space that is consistent with the observed trait distribution. The stationary distribution of the traits is exp½2NðlogðW¯ Þ þ U þ SOÞ ; this applies with arbitrary epistasis and dominance. The entropies SO, SH are distinct, but converge when there are so many alleles that traits fluctuate close to their expectations. Populations tend to evolve towards states that can be realised in many ways (i.e., large SO), which may lead to a substantial drop below the adaptive peak; we illustrate this point with a simple model of genetic redundancy. This analogy with statistical thermodynamics brings together previous ideas in a general framework, and justifies a maximum entropy approximation to the dynamics of quantitative traits.}
+      \field{issn}{00225193}
+      \field{journaltitle}{Journal of Theoretical Biology}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{2}
+      \field{shortjournal}{Journal of Theoretical Biology}
+      \field{title}{On the Application of Statistical Physics to Evolutionary Biology}
+      \field{urlday}{2}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{259}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{317\bibrangedash 324}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.jtbi.2009.03.019
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\EQPJWJ49\Barton and Coe - 2009 - On the application of statistical physics to evolutionary biology.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0022519309001222
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0022519309001222
+      \endverb
+    \endentry
+    \entry{bialek2012biophysics}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=10a2fcf9b4d2afe92cf7da76b25fc462}{%
+           family={Bialek},
+           familyi={B\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{10a2fcf9b4d2afe92cf7da76b25fc462}
+      \strng{fullhash}{10a2fcf9b4d2afe92cf7da76b25fc462}
+      \strng{fullhashraw}{10a2fcf9b4d2afe92cf7da76b25fc462}
+      \strng{bibnamehash}{10a2fcf9b4d2afe92cf7da76b25fc462}
+      \strng{authorbibnamehash}{10a2fcf9b4d2afe92cf7da76b25fc462}
+      \strng{authornamehash}{10a2fcf9b4d2afe92cf7da76b25fc462}
+      \strng{authorfullhash}{10a2fcf9b4d2afe92cf7da76b25fc462}
+      \strng{authorfullhashraw}{10a2fcf9b4d2afe92cf7da76b25fc462}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-691-13891-6}
+      \field{title}{Biophysics: {{Searching}} for Principles}
+      \field{year}{2012}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ryan1985}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=9cd7941686b1bd06d1308f4206166c4d}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chicago, IL, USA}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{9cd7941686b1bd06d1308f4206166c4d}
+      \strng{fullhash}{9cd7941686b1bd06d1308f4206166c4d}
+      \strng{fullhashraw}{9cd7941686b1bd06d1308f4206166c4d}
+      \strng{bibnamehash}{9cd7941686b1bd06d1308f4206166c4d}
+      \strng{authorbibnamehash}{9cd7941686b1bd06d1308f4206166c4d}
+      \strng{authornamehash}{9cd7941686b1bd06d1308f4206166c4d}
+      \strng{authorfullhash}{9cd7941686b1bd06d1308f4206166c4d}
+      \strng{authorfullhashraw}{9cd7941686b1bd06d1308f4206166c4d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Túngara Frog: A Study in Sexual Selection and Communication}
+      \field{year}{1985}
+      \field{dateera}{ce}
+    \endentry
+    \entry{cushing1985estrous}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a9feca5ce01035557ecfdd031acdefcf}{%
+           family={Cushing},
+           familyi={C\bibinitperiod},
+           given={B.\bibnamedelimi S.},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9feca5ce01035557ecfdd031acdefcf}
+      \strng{fullhash}{a9feca5ce01035557ecfdd031acdefcf}
+      \strng{fullhashraw}{a9feca5ce01035557ecfdd031acdefcf}
+      \strng{bibnamehash}{a9feca5ce01035557ecfdd031acdefcf}
+      \strng{authorbibnamehash}{a9feca5ce01035557ecfdd031acdefcf}
+      \strng{authornamehash}{a9feca5ce01035557ecfdd031acdefcf}
+      \strng{authorfullhash}{a9feca5ce01035557ecfdd031acdefcf}
+      \strng{authorfullhashraw}{a9feca5ce01035557ecfdd031acdefcf}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecology}
+      \field{number}{6}
+      \field{title}{Estrous Mice and Vulnerability to Weasel Predation}
+      \field{volume}{66}
+      \field{year}{1985}
+      \field{dateera}{ce}
+      \field{pages}{1976\bibrangedash 1978}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.2307/2937391
+      \endverb
+    \endentry
+    \entry{andersson1994}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=61aceff0a88deb5dd5db0d816319cd50}{%
+           family={Andersson},
+           familyi={A\bibinitperiod},
+           given={Malte.},
+           giveni={Malte\bibinitperiod\bibinitdelim \bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton, NJ, USA}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{61aceff0a88deb5dd5db0d816319cd50}
+      \strng{fullhash}{61aceff0a88deb5dd5db0d816319cd50}
+      \strng{fullhashraw}{61aceff0a88deb5dd5db0d816319cd50}
+      \strng{bibnamehash}{61aceff0a88deb5dd5db0d816319cd50}
+      \strng{authorbibnamehash}{61aceff0a88deb5dd5db0d816319cd50}
+      \strng{authornamehash}{61aceff0a88deb5dd5db0d816319cd50}
+      \strng{authorfullhash}{61aceff0a88deb5dd5db0d816319cd50}
+      \strng{authorfullhashraw}{61aceff0a88deb5dd5db0d816319cd50}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sexual Selection}
+      \field{year}{1994}
+      \field{dateera}{ce}
+    \endentry
+    \entry{houdeSexColorMate1997}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=fe0c9501ce2e4962d771a70afe2e35a1}{%
+           family={Houde},
+           familyi={H\bibinitperiod},
+           given={Anne\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton, N.J}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \strng{fullhash}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \strng{fullhashraw}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \strng{bibnamehash}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \strng{authorbibnamehash}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \strng{authornamehash}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \strng{authorfullhash}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \strng{authorfullhashraw}{fe0c9501ce2e4962d771a70afe2e35a1}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-691-20726-1}
+      \field{langid}{english}
+      \field{pagetotal}{1}
+      \field{series}{Monographs in Behavior and Ecology}
+      \field{title}{Sex, Color, and Mate Choice in Guppies}
+      \field{year}{1997}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\ZYTEYXXC\Houde - 1997 - Sex, color, and mate choice in guppies.pdf
+      \endverb
+      \keyw{Behavior,Guppies,Sexual behavior in animals,Sexual selection in animals}
+    \endentry
+    \entry{endlerNATURALSELECTIONCOLOR1980}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=6482231087641431fca3fa0bc8292708}{%
+           family={Endler},
+           familyi={E\bibinitperiod},
+           given={John\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6482231087641431fca3fa0bc8292708}
+      \strng{fullhash}{6482231087641431fca3fa0bc8292708}
+      \strng{fullhashraw}{6482231087641431fca3fa0bc8292708}
+      \strng{bibnamehash}{6482231087641431fca3fa0bc8292708}
+      \strng{authorbibnamehash}{6482231087641431fca3fa0bc8292708}
+      \strng{authornamehash}{6482231087641431fca3fa0bc8292708}
+      \strng{authorfullhash}{6482231087641431fca3fa0bc8292708}
+      \strng{authorfullhashraw}{6482231087641431fca3fa0bc8292708}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0014-3820, 1558-5646}
+      \field{journaltitle}{Evolution}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Evolution}
+      \field{title}{{{NATURAL SELECTION ON COLOR PATTERNS IN}} {{{\mkbibemph{POECILIA RETICULATA}}}}}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{34}
+      \field{year}{1980}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{76\bibrangedash 91}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1111/j.1558-5646.1980.tb04790.x
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\5JHJKZ6D\Endler - 1980 - NATURAL SELECTION ON COLOR PATTERNS IN POECILIA RETICULATA.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/evolut/article/34/1/76/6871326
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/evolut/article/34/1/76/6871326
+      \endverb
+    \endentry
+    \entry{vonneumann1944}{book}{}{}
+      \name{author}{2}{}{%
+        {{useprefix=true,hash=2edbaf68f111b31c9c57b1b1abc8ff34}{%
+           family={Neumann},
+           familyi={N\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=5c74da45408772ca65520214b0592336}{%
+           family={Morgenstern},
+           familyi={M\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton, NJ, USA}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{2ff68bdc2d79c759a289db77eae166d8}
+      \strng{fullhash}{2ff68bdc2d79c759a289db77eae166d8}
+      \strng{fullhashraw}{2ff68bdc2d79c759a289db77eae166d8}
+      \strng{bibnamehash}{2ff68bdc2d79c759a289db77eae166d8}
+      \strng{authorbibnamehash}{2ff68bdc2d79c759a289db77eae166d8}
+      \strng{authornamehash}{2ff68bdc2d79c759a289db77eae166d8}
+      \strng{authorfullhash}{2ff68bdc2d79c759a289db77eae166d8}
+      \strng{authorfullhashraw}{2ff68bdc2d79c759a289db77eae166d8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Theory of Games and Economic Behavior}
+      \field{year}{1944}
+      \field{dateera}{ce}
+    \endentry
+    \entry{GameTheoryVery}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=faeee38e77652b6ba3724d6d3bc58b97}{%
+           family={Binmore},
+           familyi={B\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{faeee38e77652b6ba3724d6d3bc58b97}
+      \strng{fullhash}{faeee38e77652b6ba3724d6d3bc58b97}
+      \strng{fullhashraw}{faeee38e77652b6ba3724d6d3bc58b97}
+      \strng{bibnamehash}{faeee38e77652b6ba3724d6d3bc58b97}
+      \strng{authorbibnamehash}{faeee38e77652b6ba3724d6d3bc58b97}
+      \strng{authornamehash}{faeee38e77652b6ba3724d6d3bc58b97}
+      \strng{authorfullhash}{faeee38e77652b6ba3724d6d3bc58b97}
+      \strng{authorfullhashraw}{faeee38e77652b6ba3724d6d3bc58b97}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Game {{Theory}} : {{A Very Short Introduction}}}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\2ILC6BFK\pp_5.html
+      \endverb
+      \verb{urlraw}
+      \verb https://research-ebsco-com.ezproxy.uniandes.edu.co/c/afpmj3/ebook-viewer/pdf/24pt73uwjv/page/pp_5?location=https%25253A%25252F%25252Fresearch-ebsco-com.ezproxy.uniandes.edu.co%25252Fc%25252Fafpmj3%25252Fsearch%25252Fdetails%25252F24pt73uwjv%25253Frequest-context%25253Dplink%252526db%25253De000xww
+      \endverb
+      \verb{url}
+      \verb https://research-ebsco-com.ezproxy.uniandes.edu.co/c/afpmj3/ebook-viewer/pdf/24pt73uwjv/page/pp_5?location=https%25253A%25252F%25252Fresearch-ebsco-com.ezproxy.uniandes.edu.co%25252Fc%25252Fafpmj3%25252Fsearch%25252Fdetails%25252F24pt73uwjv%25253Frequest-context%25253Dplink%252526db%25253De000xww
+      \endverb
+    \endentry
+    \entry{nasar1998}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=daef2df7ebe287d0568945cb951aa9bf}{%
+           family={Nasar},
+           familyi={N\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Simon \& Schuster}%
+      }
+      \strng{namehash}{daef2df7ebe287d0568945cb951aa9bf}
+      \strng{fullhash}{daef2df7ebe287d0568945cb951aa9bf}
+      \strng{fullhashraw}{daef2df7ebe287d0568945cb951aa9bf}
+      \strng{bibnamehash}{daef2df7ebe287d0568945cb951aa9bf}
+      \strng{authorbibnamehash}{daef2df7ebe287d0568945cb951aa9bf}
+      \strng{authornamehash}{daef2df7ebe287d0568945cb951aa9bf}
+      \strng{authorfullhash}{daef2df7ebe287d0568945cb951aa9bf}
+      \strng{authorfullhashraw}{daef2df7ebe287d0568945cb951aa9bf}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Beautiful Mind}
+      \field{year}{1998}
+      \field{dateera}{ce}
+    \endentry
+    \entry{maynardsmith1973}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=b160198f3d05f6e292928980596af3aa}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi Maynard},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=83bbbe852e03ee7f4d143838f4b0bb2e}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={G.\bibnamedelimi R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c7d78c86947b756c43fe94a50a691fb}
+      \strng{fullhash}{4c7d78c86947b756c43fe94a50a691fb}
+      \strng{fullhashraw}{4c7d78c86947b756c43fe94a50a691fb}
+      \strng{bibnamehash}{4c7d78c86947b756c43fe94a50a691fb}
+      \strng{authorbibnamehash}{4c7d78c86947b756c43fe94a50a691fb}
+      \strng{authornamehash}{4c7d78c86947b756c43fe94a50a691fb}
+      \strng{authorfullhash}{4c7d78c86947b756c43fe94a50a691fb}
+      \strng{authorfullhashraw}{4c7d78c86947b756c43fe94a50a691fb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{5427}
+      \field{title}{The Logic of Animal Conflict}
+      \field{volume}{246}
+      \field{year}{1973}
+      \field{dateera}{ce}
+      \field{pages}{15\bibrangedash 18}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/246015a0
+      \endverb
+    \endentry
+    \entry{maynardsmith1982}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b160198f3d05f6e292928980596af3aa}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi Maynard},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, UK}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b160198f3d05f6e292928980596af3aa}
+      \strng{fullhash}{b160198f3d05f6e292928980596af3aa}
+      \strng{fullhashraw}{b160198f3d05f6e292928980596af3aa}
+      \strng{bibnamehash}{b160198f3d05f6e292928980596af3aa}
+      \strng{authorbibnamehash}{b160198f3d05f6e292928980596af3aa}
+      \strng{authornamehash}{b160198f3d05f6e292928980596af3aa}
+      \strng{authorfullhash}{b160198f3d05f6e292928980596af3aa}
+      \strng{authorfullhashraw}{b160198f3d05f6e292928980596af3aa}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Evolution and the Theory of Games}
+      \field{year}{1982}
+      \field{dateera}{ce}
+    \endentry
+    \entry{freyEvolutionaryGameTheory2010}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=cef78cd10c8dfe58525762377c51c0eb}{%
+           family={Frey},
+           familyi={F\bibinitperiod},
+           given={Erwin},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{cef78cd10c8dfe58525762377c51c0eb}
+      \strng{fullhash}{cef78cd10c8dfe58525762377c51c0eb}
+      \strng{fullhashraw}{cef78cd10c8dfe58525762377c51c0eb}
+      \strng{bibnamehash}{cef78cd10c8dfe58525762377c51c0eb}
+      \strng{authorbibnamehash}{cef78cd10c8dfe58525762377c51c0eb}
+      \strng{authornamehash}{cef78cd10c8dfe58525762377c51c0eb}
+      \strng{authorfullhash}{cef78cd10c8dfe58525762377c51c0eb}
+      \strng{authorfullhashraw}{cef78cd10c8dfe58525762377c51c0eb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Ecological systems are complex assemblies of large numbers of individuals, interacting competitively under multifaceted environmental conditions. Recent studies using microbial laboratory communities have revealed some of the self-organization principles underneath the complexity of these systems. A major role of the inherent stochasticity of its dynamics and the spatial segregation of different interacting species into distinct patterns has thereby been established. It ensures the viability of microbial colonies by allowing for species diversity, cooperative behavior and other kinds of ‘‘social’’ behavior.}
+      \field{issn}{03784371}
+      \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{20}
+      \field{shortjournal}{Physica A: Statistical Mechanics and its Applications}
+      \field{shorttitle}{Evolutionary Game Theory}
+      \field{title}{Evolutionary Game Theory: {{Theoretical}} Concepts and Applications to Microbial Communities}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{389}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4265\bibrangedash 4298}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1016/j.physa.2010.02.047
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\XKARCCXE\Frey - 2010 - Evolutionary game theory Theoretical concepts and applications to microbial communities.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0378437110001743
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0378437110001743
+      \endverb
+    \endentry
+    \entry{mit2021game}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c335415cba06bd9d706a43b3cb4cfb0f}{%
+           family={Magazinnik},
+           familyi={M\bibinitperiod},
+           given={Asya},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA, USA}%
+      }
+      \list{organization}{1}{%
+        {Massachusetts Institute of Technology}%
+      }
+      \strng{namehash}{c335415cba06bd9d706a43b3cb4cfb0f}
+      \strng{fullhash}{c335415cba06bd9d706a43b3cb4cfb0f}
+      \strng{fullhashraw}{c335415cba06bd9d706a43b3cb4cfb0f}
+      \strng{bibnamehash}{c335415cba06bd9d706a43b3cb4cfb0f}
+      \strng{authorbibnamehash}{c335415cba06bd9d706a43b3cb4cfb0f}
+      \strng{authornamehash}{c335415cba06bd9d706a43b3cb4cfb0f}
+      \strng{authorfullhash}{c335415cba06bd9d706a43b3cb4cfb0f}
+      \strng{authorfullhashraw}{c335415cba06bd9d706a43b3cb4cfb0f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Course lecture slides, 17.810/17.811 Game Theory}
+      \field{title}{Lecture 3: {{Mixed}} Strategy Nash Equilibrium}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{liuFixationProbabilitiesEvolutionary2015}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=38df6b599c9b548b89786615545ced14}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xuesong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=92556db1d2e95eb43f8d30b5dd58eb59}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Qiuhui},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=111bb9e52b0de25dc7ebdf0c98201634}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Yibin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=20ae43b629d2c3335fcb63f0c9e91d0a}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Mingfeng},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4cc22a1319432fc4712fe7e0a6fcc54c}
+      \strng{fullhash}{a68b0d6fdeb106d8bacc5d8a69c219c9}
+      \strng{fullhashraw}{a68b0d6fdeb106d8bacc5d8a69c219c9}
+      \strng{bibnamehash}{4cc22a1319432fc4712fe7e0a6fcc54c}
+      \strng{authorbibnamehash}{4cc22a1319432fc4712fe7e0a6fcc54c}
+      \strng{authornamehash}{4cc22a1319432fc4712fe7e0a6fcc54c}
+      \strng{authorfullhash}{a68b0d6fdeb106d8bacc5d8a69c219c9}
+      \strng{authorfullhashraw}{a68b0d6fdeb106d8bacc5d8a69c219c9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An evolutionary dynamic model of 2 2 games with finite population of size N þM was built. Among these individuals, N individuals have the same update mechanism as that of the Moran process, while the other M individuals have the same update mechanism as that of the Fermi process. We obtain the balance equations of the fixation probability and analyze some concrete cases. In contrast with the results of neutral evolution, the fixation probability of a single co-operator with the same update mechanism as that of the Fermi process is higher. Besides, more co-operators with the update mechanism of the Fermi process lead to higher fixation probabilities when co-operators' quantity is the same.}
+      \field{issn}{00225193}
+      \field{journaltitle}{Journal of Theoretical Biology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{Journal of Theoretical Biology}
+      \field{title}{Fixation Probabilities in Evolutionary Games with the {{Moran}} and {{Fermi}} Processes}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{364}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{242\bibrangedash 248}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.jtbi.2014.08.047
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\L6P7FJ6S\Liu et al. - 2015 - Fixation probabilities in evolutionary games with the Moran and Fermi processes.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0022519314005347
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0022519314005347
+      \endverb
+    \endentry
+    \entry{moyalStochasticProcessesStatistic1949}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=da6673cd6bb2015e51e9f163eb8dc0b4}{%
+           family={Moyal},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{da6673cd6bb2015e51e9f163eb8dc0b4}
+      \strng{fullhash}{da6673cd6bb2015e51e9f163eb8dc0b4}
+      \strng{fullhashraw}{da6673cd6bb2015e51e9f163eb8dc0b4}
+      \strng{bibnamehash}{da6673cd6bb2015e51e9f163eb8dc0b4}
+      \strng{authorbibnamehash}{da6673cd6bb2015e51e9f163eb8dc0b4}
+      \strng{authornamehash}{da6673cd6bb2015e51e9f163eb8dc0b4}
+      \strng{authorfullhash}{da6673cd6bb2015e51e9f163eb8dc0b4}
+      \strng{authorfullhashraw}{da6673cd6bb2015e51e9f163eb8dc0b4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{1369-7412, 1467-9868}
+      \field{journaltitle}{Journal of the Royal Statistical Society Series B: Statistical Methodology}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{2}
+      \field{title}{Stochastic {{Processes}} and {{Statistical Physics}}}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{11}
+      \field{year}{1949}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{150\bibrangedash 210}
+      \range{pages}{61}
+      \verb{doi}
+      \verb 10.1111/j.2517-6161.1949.tb00030.x
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\7Q9B9W63\Moyal - 1949 - Stochastic Processes and Statistical Physics.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/jrsssb/article/11/2/150/7026583
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/jrsssb/article/11/2/150/7026583
+      \endverb
+    \endentry
+    \entry{moran1958}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=89abbf201fed5e8a1a1b30418bed35cc}{%
+           family={Moran},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi A.\bibnamedelimi P.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{89abbf201fed5e8a1a1b30418bed35cc}
+      \strng{fullhash}{89abbf201fed5e8a1a1b30418bed35cc}
+      \strng{fullhashraw}{89abbf201fed5e8a1a1b30418bed35cc}
+      \strng{bibnamehash}{89abbf201fed5e8a1a1b30418bed35cc}
+      \strng{authorbibnamehash}{89abbf201fed5e8a1a1b30418bed35cc}
+      \strng{authornamehash}{89abbf201fed5e8a1a1b30418bed35cc}
+      \strng{authorfullhash}{89abbf201fed5e8a1a1b30418bed35cc}
+      \strng{authorfullhashraw}{89abbf201fed5e8a1a1b30418bed35cc}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Proceedings of the Cambridge Philosophical Society}
+      \field{number}{1}
+      \field{title}{Random Processes in Genetics}
+      \field{volume}{54}
+      \field{year}{1958}
+      \field{dateera}{ce}
+      \field{pages}{60\bibrangedash 71}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1017/S0305004100033193
+      \endverb
+    \endentry
+    \entry{galanisAmplifiersMoranProcess2017}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=2a48c4c187e59b0e675b675f61786858}{%
+           family={Galanis},
+           familyi={G\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2e9c433c919faa3826dcc388e75d563a}{%
+           family={Göbel},
+           familyi={G\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f2792dfdf4406d9b0c5684f34daf06e4}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={Leslie\bibnamedelima Ann},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=53284b63655519fa5f2b39fcf3f46d80}{%
+           family={Lapinskas},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=708a622d7aada0336d731f9585353cab}{%
+           family={Richerby},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f90ecb8a09a07b53876736530b14e6aa}
+      \strng{fullhash}{8e30946de33167db8f6ee24a5268453d}
+      \strng{fullhashraw}{8e30946de33167db8f6ee24a5268453d}
+      \strng{bibnamehash}{f90ecb8a09a07b53876736530b14e6aa}
+      \strng{authorbibnamehash}{f90ecb8a09a07b53876736530b14e6aa}
+      \strng{authornamehash}{f90ecb8a09a07b53876736530b14e6aa}
+      \strng{authorfullhash}{8e30946de33167db8f6ee24a5268453d}
+      \strng{authorfullhashraw}{8e30946de33167db8f6ee24a5268453d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Moran process, as studied by Lieberman, Hauert, and Nowak, is a randomised algorithm modelling the spread of genetic mutations in populations. The algorithm runs on an underlying graph where individuals correspond to vertices. Initially, one vertex (chosen uniformly at random) possesses a mutation, with fitness r {$>$} 1. All other individuals have fitness 1. During each step of the algorithm, an individual is chosen with probability proportional to its fitness, and its state (mutant or nonmutant) is passed on to an out-neighbour which is chosen uniformly at random. If the underlying graph is strongly connected, then the algorithm will eventually reach fixation , in which all individuals are mutants, or extinction , in which no individuals are mutants. An infinite family of directed graphs is said to be strongly amplifying if, for every r {$>$} 1, the extinction probability tends to 0 as the number of vertices increases. A formal definition is provided in the article. Strong amplification is a rather surprising property—it means that in such graphs, the fixation probability of a uniformly placed initial mutant tends to 1 even though the initial mutant only has a fixed selective advantage of r {$>$} 1 (independently of n ). The name “strongly amplifying” comes from the fact that this selective advantage is “amplified.” Strong amplifiers have received quite a bit of attention, and Lieberman et al. proposed two potentially strongly amplifying families—superstars and metafunnels. Heuristic arguments have been published, arguing that there are infinite families of superstars that are strongly amplifying. The same has been claimed for metafunnels. In this article, we give the first rigorous proof that there is an infinite family of directed graphs that is strongly amplifying. We call the graphs in the family “megastars.” When the algorithm is run on an n -vertex graph in this family, starting with a uniformly chosen mutant, the extinction probability is roughly n − 1/2 (up to logarithmic factors). We prove that all infinite families of superstars and metafunnels have larger extinction probabilities (as a function of n ). Finally, we prove that our analysis of megastars is fairly tight—there is no infinite family of megastars such that the Moran algorithm gives a smaller extinction probability (up to logarithmic factors). Also, we provide a counterexample which clarifies the literature concerning the isothermal theorem of Lieberman et al.}
+      \field{day}{28}
+      \field{issn}{0004-5411, 1557-735X}
+      \field{journaltitle}{Journal of the ACM}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shortjournal}{J. ACM}
+      \field{title}{Amplifiers for the {{Moran Process}}}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{64}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 90}
+      \range{pages}{90}
+      \verb{doi}
+      \verb 10.1145/3019609
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\BZ2KGN6S\Galanis et al. - 2017 - Amplifiers for the Moran Process.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3019609
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3019609
+      \endverb
+    \endentry
+    \entry{imhofEvolutionaryGameDynamics2006}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=24bfa0ff831bccad76bf36bb9e644fe9}{%
+           family={Imhof},
+           familyi={I\bibinitperiod},
+           given={Lorens\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6b63180e77466ce81c34087d70a19cb9}{%
+           family={Nowak},
+           familyi={N\bibinitperiod},
+           given={Martin\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{16fa3368e1332500c6f7e9c7c6b5184a}
+      \strng{fullhash}{16fa3368e1332500c6f7e9c7c6b5184a}
+      \strng{fullhashraw}{16fa3368e1332500c6f7e9c7c6b5184a}
+      \strng{bibnamehash}{16fa3368e1332500c6f7e9c7c6b5184a}
+      \strng{authorbibnamehash}{16fa3368e1332500c6f7e9c7c6b5184a}
+      \strng{authornamehash}{16fa3368e1332500c6f7e9c7c6b5184a}
+      \strng{authorfullhash}{16fa3368e1332500c6f7e9c7c6b5184a}
+      \strng{authorfullhashraw}{16fa3368e1332500c6f7e9c7c6b5184a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Evolutionary game dynamics in finite populations can be described by a frequency dependent, stochastic Wright-Fisher process. We consider a symmetric game between two strategies, A and B. There are discrete generations. In each generation, individuals produce offspring proportional to their payoff. The next generation is sampled randomly from this pool of offspring. The total population size is constant. The resulting Markov process has two absorbing states corresponding to homogeneous populations of all A or all B. We quantify frequency dependent selection by comparing the absorption probabilities to the corresponding probabilities under random drift. We derive conditions for selection to favor one strategy or the other by using the concept of total positivity. In the limit of weak selection, we obtain the 1/3 law: if A and B are strict Nash equilibria then selection favors replacement of B by A, if the unstable equilibrium occurs at a frequency of A which is less than 1/3.}
+      \field{issn}{0303-6812, 1432-1416}
+      \field{journaltitle}{Journal of Mathematical Biology}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shortjournal}{J. Math. Biol.}
+      \field{title}{Evolutionary Game Dynamics in a {{Wright-Fisher}} Process}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{52}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{667\bibrangedash 681}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/s00285-005-0369-8
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\UIU7MI9K\Imhof and Nowak - 2006 - Evolutionary game dynamics in a Wright-Fisher process.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s00285-005-0369-8
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s00285-005-0369-8
+      \endverb
+    \endentry
+    \entry{mccandlishVISUALIZINGFITNESSLANDSCAPES2011}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a640a34ea657df4f5405ae14654eaae4}{%
+           family={McCandlish},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a640a34ea657df4f5405ae14654eaae4}
+      \strng{fullhash}{a640a34ea657df4f5405ae14654eaae4}
+      \strng{fullhashraw}{a640a34ea657df4f5405ae14654eaae4}
+      \strng{bibnamehash}{a640a34ea657df4f5405ae14654eaae4}
+      \strng{authorbibnamehash}{a640a34ea657df4f5405ae14654eaae4}
+      \strng{authornamehash}{a640a34ea657df4f5405ae14654eaae4}
+      \strng{authorfullhash}{a640a34ea657df4f5405ae14654eaae4}
+      \strng{authorfullhashraw}{a640a34ea657df4f5405ae14654eaae4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{00143820}
+      \field{journaltitle}{Evolution}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shorttitle}{{{VISUALIZING FITNESS LANDSCAPES}}}
+      \field{title}{{{VISUALIZING FITNESS LANDSCAPES}}: {{VISUALIZING FITNESS LANDSCAPES}}}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{65}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1544\bibrangedash 1558}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1111/j.1558-5646.2011.01236.x
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\D9P2R3N3\McCandlish - 2011 - VISUALIZING FITNESS LANDSCAPES VISUALIZING FITNESS LANDSCAPES.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/evolut/article/65/6/1544/6854390
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/evolut/article/65/6/1544/6854390
+      \endverb
+    \endentry
+    \entry{zahavi1987signal}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=4f10a5f2b151907ecc23b4f04ee2c9b5}{%
+           family={Zahavi},
+           familyi={Z\bibinitperiod},
+           given={Amotz},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=ab2fde33f883cb9f8b39cde3aff645cf}{%
+           family={Delfino},
+           familyi={D\bibinitperiod},
+           given={V.\bibnamedelimi P.},
+           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Bari, Italy}%
+      }
+      \list{publisher}{1}{%
+        {Adriatica Editrice}%
+      }
+      \strng{namehash}{4f10a5f2b151907ecc23b4f04ee2c9b5}
+      \strng{fullhash}{4f10a5f2b151907ecc23b4f04ee2c9b5}
+      \strng{fullhashraw}{4f10a5f2b151907ecc23b4f04ee2c9b5}
+      \strng{bibnamehash}{4f10a5f2b151907ecc23b4f04ee2c9b5}
+      \strng{authorbibnamehash}{4f10a5f2b151907ecc23b4f04ee2c9b5}
+      \strng{authornamehash}{4f10a5f2b151907ecc23b4f04ee2c9b5}
+      \strng{authorfullhash}{4f10a5f2b151907ecc23b4f04ee2c9b5}
+      \strng{authorfullhashraw}{4f10a5f2b151907ecc23b4f04ee2c9b5}
+      \strng{editorbibnamehash}{ab2fde33f883cb9f8b39cde3aff645cf}
+      \strng{editornamehash}{ab2fde33f883cb9f8b39cde3aff645cf}
+      \strng{editorfullhash}{ab2fde33f883cb9f8b39cde3aff645cf}
+      \strng{editorfullhashraw}{ab2fde33f883cb9f8b39cde3aff645cf}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the International Symposium on Biological Evolution}
+      \field{title}{The Theory of Signal Selection and Some of Its Implications}
+      \field{year}{1987}
+      \field{dateera}{ce}
+      \field{pages}{305\bibrangedash 327}
+      \range{pages}{23}
+    \endentry
+    \entry{godinFemaleMateChoice1996}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=023e79171b2666504b0cc0b8da2490da}{%
+           family={Godin},
+           familyi={G\bibinitperiod},
+           given={Jean-Guy\bibnamedelima J.},
+           giveni={J\bibinithyphendelim G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3d115a8c5abdeec52deac6ef9e477104}{%
+           family={Briggs},
+           familyi={B\bibinitperiod},
+           given={Stephanie\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{76f7af196bfd8e2d6bd04bdd779034bc}
+      \strng{fullhash}{76f7af196bfd8e2d6bd04bdd779034bc}
+      \strng{fullhashraw}{76f7af196bfd8e2d6bd04bdd779034bc}
+      \strng{bibnamehash}{76f7af196bfd8e2d6bd04bdd779034bc}
+      \strng{authorbibnamehash}{76f7af196bfd8e2d6bd04bdd779034bc}
+      \strng{authornamehash}{76f7af196bfd8e2d6bd04bdd779034bc}
+      \strng{authorfullhash}{76f7af196bfd8e2d6bd04bdd779034bc}
+      \strng{authorfullhashraw}{76f7af196bfd8e2d6bd04bdd779034bc}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00033472}
+      \field{journaltitle}{Animal Behaviour}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Animal Behaviour}
+      \field{title}{Female Mate Choice under Predation Risk in the Guppy}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{51}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{117\bibrangedash 130}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1006/anbe.1996.0010
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\7DI8E469\Godin and Briggs - 1996 - Female mate choice under predation risk in the guppy.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S000334729690010X
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S000334729690010X
+      \endverb
+    \endentry
+    \entry{endler1991}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=f68a3dd4ce0f24b8a3684474f68b73fa}{%
+           family={Endler},
+           familyi={E\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f68a3dd4ce0f24b8a3684474f68b73fa}
+      \strng{fullhash}{f68a3dd4ce0f24b8a3684474f68b73fa}
+      \strng{fullhashraw}{f68a3dd4ce0f24b8a3684474f68b73fa}
+      \strng{bibnamehash}{f68a3dd4ce0f24b8a3684474f68b73fa}
+      \strng{authorbibnamehash}{f68a3dd4ce0f24b8a3684474f68b73fa}
+      \strng{authornamehash}{f68a3dd4ce0f24b8a3684474f68b73fa}
+      \strng{authorfullhash}{f68a3dd4ce0f24b8a3684474f68b73fa}
+      \strng{authorfullhashraw}{f68a3dd4ce0f24b8a3684474f68b73fa}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vision Research}
+      \field{number}{3}
+      \field{title}{Variation in the Appearance of Guppy Color Patterns to Guppies and Their Predators under Different Visual Conditions}
+      \field{volume}{31}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \field{pages}{587\bibrangedash 608}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1016/0042-6989(91)90109-I
+      \endverb
+    \endentry
+    \entry{bothamRISKSENSITIVEANTIPREDATORBEHAVIOR2008}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=5b17e8bf71b7dc4c068c64ee8f9c9630}{%
+           family={Botham},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=bc7c0f72e49558b62b52f3b82fcfa396}{%
+           family={Hayward},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=8d9fd6fa10ccde4173be88fa92fe5ec5}{%
+           family={Morrell},
+           familyi={M\bibinitperiod},
+           given={L.\bibnamedelimi J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c15b1dc267e98a7abf1c186e214e22df}{%
+           family={Croft},
+           familyi={C\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=160dfeb768937339b5c6c24453614af7}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=5c0a91a60b09179f03e12e2ee24387ac}{%
+           family={Ramnarine},
+           familyi={R\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=46640f51502d5453a87860562ee897e3}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{92e06bbbf291e4af53602ee724adb308}
+      \strng{fullhash}{a9ab08872a9be784ebacc0648402280d}
+      \strng{fullhashraw}{a9ab08872a9be784ebacc0648402280d}
+      \strng{bibnamehash}{92e06bbbf291e4af53602ee724adb308}
+      \strng{authorbibnamehash}{92e06bbbf291e4af53602ee724adb308}
+      \strng{authornamehash}{92e06bbbf291e4af53602ee724adb308}
+      \strng{authorfullhash}{a9ab08872a9be784ebacc0648402280d}
+      \strng{authorfullhashraw}{a9ab08872a9be784ebacc0648402280d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The comparative approach has become a powerful tool for understanding how pr?dation has shaped prey behavior. In this study we recorded the occurrence of common aquatic predator species and their densities in seven natural populations of Trinidadian guppies, Poecilia reticulata. We then exposed shoals of guppies from each of these populations to a series of predator treatments. Predator treatments differed in the species of predator used (pike cichlids, Crenicichla frenata; rivulus, Rivulus hartii; and freshwater prawns, Macro brachium carcinus) and thus in the level of risk posed. We recorded the antipredator responses of guppies in each of these predator treatments. The strength of antipredator behavior shown by guppies was affected by both the type of predator they were exposed to and the level of pr?dation risk they experienced naturally in the wild. Importantly, we found that guppies from high-risk populations showed a heightened response, compared to those from lower risk populations, only when exposed to the predator species that posed the greatest risk. Our results show the importance of individual predator species in shaping the behavioral traits of prey species at the population level. This has implications for prey movement between habitats that are geographically close but differ greatly in predator fauna. Key words: antipredator behavior; Crenicichla; guppy; multiple predators; Poecilia reticulata; predator recognition; Rivulus.}
+      \field{issn}{0012-9658, 1939-9170}
+      \field{journaltitle}{Ecology}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shortjournal}{Ecology}
+      \field{title}{{{RISK}}‐{{SENSITIVE ANTIPREDATOR BEHAVIOR IN THE TRINIDADIAN GUPPY}}, {{{\mkbibemph{POECILIA RETICULATA}}}}}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{89}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3174\bibrangedash 3185}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1890/07-0490.1
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\969SF48M\Botham et al. - 2008 - RISK‐SENSITIVE ANTIPREDATOR BEHAVIOR IN THE TRINIDADIAN GUPPY, POECILIA RETICULATA.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://esajournals.onlinelibrary.wiley.com/doi/10.1890/07-0490.1
+      \endverb
+      \verb{url}
+      \verb https://esajournals.onlinelibrary.wiley.com/doi/10.1890/07-0490.1
+      \endverb
+    \endentry
+    \entry{smithBehavioralTypesPredictors2010}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=ef8e67ff4ea96ace76887092642b2610}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Brian\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8065617d55f38e9439d82ff59b2b4315}{%
+           family={Blumstein},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelima T.},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{dedf922e4e6b160c4a0263f167138cbe}
+      \strng{fullhash}{dedf922e4e6b160c4a0263f167138cbe}
+      \strng{fullhashraw}{dedf922e4e6b160c4a0263f167138cbe}
+      \strng{bibnamehash}{dedf922e4e6b160c4a0263f167138cbe}
+      \strng{authorbibnamehash}{dedf922e4e6b160c4a0263f167138cbe}
+      \strng{authornamehash}{dedf922e4e6b160c4a0263f167138cbe}
+      \strng{authorfullhash}{dedf922e4e6b160c4a0263f167138cbe}
+      \strng{authorfullhashraw}{dedf922e4e6b160c4a0263f167138cbe}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1465-7279, 1045-2249}
+      \field{journaltitle}{Behavioral Ecology}
+      \field{langid}{english}
+      \field{number}{5}
+      \field{title}{Behavioral Types as Predictors of Survival in {{Trinidadian}} Guppies ({{Poecilia}} Reticulata)}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{21}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{919\bibrangedash 926}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1093/beheco/arq084
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\FP4TCJP7\Smith and Blumstein - 2010 - Behavioral types as predictors of survival in Trinidadian guppies (Poecilia reticulata).pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/beheco/article-lookup/doi/10.1093/beheco/arq084
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/beheco/article-lookup/doi/10.1093/beheco/arq084
+      \endverb
+    \endentry
+    \entry{goslinePredatorinducedPlasticityGuppy2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=f331a08e4ac3edbaf2124c499209f15e}{%
+           family={Gosline},
+           familyi={G\bibinitperiod},
+           given={Anna\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=23883f2ff02888710622f73f3160b3f1}{%
+           family={Rodd},
+           familyi={R\bibinitperiod},
+           given={F.\bibnamedelimi Helen},
+           giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0e4cd32aac9e7eb15f08eb05adabd25}
+      \strng{fullhash}{b0e4cd32aac9e7eb15f08eb05adabd25}
+      \strng{fullhashraw}{b0e4cd32aac9e7eb15f08eb05adabd25}
+      \strng{bibnamehash}{b0e4cd32aac9e7eb15f08eb05adabd25}
+      \strng{authorbibnamehash}{b0e4cd32aac9e7eb15f08eb05adabd25}
+      \strng{authornamehash}{b0e4cd32aac9e7eb15f08eb05adabd25}
+      \strng{authorfullhash}{b0e4cd32aac9e7eb15f08eb05adabd25}
+      \strng{authorfullhashraw}{b0e4cd32aac9e7eb15f08eb05adabd25}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1386-2588, 1573-5125}
+      \field{journaltitle}{Aquatic Ecology}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{4}
+      \field{shortjournal}{Aquat Ecol}
+      \field{title}{Predator-Induced Plasticity in Guppy ({{Poecilia}} Reticulata) Life History Traits}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{42}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{693\bibrangedash 699}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/s10452-007-9138-7
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\RCUNC29Z\Gosline and Rodd - 2008 - Predator-induced plasticity in guppy (Poecilia reticulata) life history traits.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10452-007-9138-7
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10452-007-9138-7
+      \endverb
+    \endentry
+    \entry{rodgersMixedphenotypeGroupingInteraction2013}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=393dfa3fd21c19d42703a1d6e4e0fcd9}{%
+           family={Rodgers},
+           familyi={R\bibinitperiod},
+           given={Gwendolen\bibnamedelima M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5357ccdd285f7dd24dc8c11733e0e25f}{%
+           family={Kimbell},
+           familyi={K\bibinitperiod},
+           given={Helen},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9d65423cdfe7a0103ec9576cc9259d9d}{%
+           family={Morrell},
+           familyi={M\bibinitperiod},
+           given={Lesley\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f36cbaae973b24f0f7f5b3c8bde8233b}
+      \strng{fullhash}{f71d08170db3910b34a85b094413d30d}
+      \strng{fullhashraw}{f71d08170db3910b34a85b094413d30d}
+      \strng{bibnamehash}{f36cbaae973b24f0f7f5b3c8bde8233b}
+      \strng{authorbibnamehash}{f36cbaae973b24f0f7f5b3c8bde8233b}
+      \strng{authornamehash}{f36cbaae973b24f0f7f5b3c8bde8233b}
+      \strng{authorfullhash}{f71d08170db3910b34a85b094413d30d}
+      \strng{authorfullhashraw}{f71d08170db3910b34a85b094413d30d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0029-8549, 1432-1939}
+      \field{journaltitle}{Oecologia}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{1}
+      \field{shortjournal}{Oecologia}
+      \field{shorttitle}{Mixed-Phenotype Grouping}
+      \field{title}{Mixed-Phenotype Grouping: The Interaction between Oddity and Crypsis}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{172}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{59\bibrangedash 68}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s00442-012-2473-y
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\NT2GKSBE\Rodgers et al. - 2013 - Mixed-phenotype grouping the interaction between oddity and crypsis.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s00442-012-2473-y
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s00442-012-2473-y
+      \endverb
+    \endentry
+    \entry{broomNonlinearMultiplayerEvolutionary2016}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{hash=dc51cd6514d9467d1e3cf804deb2bc7e}{%
+           family={Broom},
+           familyi={B\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=578b61e000009af3c89c5c51324089f8}{%
+           family={Rychtář},
+           familyi={R\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=7bae308310c77fdc53ef9461f8d87b5b}{%
+           family={Thuijsman},
+           familyi={T\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4666e6ba8ffdcf0101354c22119da23f}{%
+           family={Wagener},
+           familyi={W\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{d9c4d08a358107ae5ebaccc80a0da105}
+      \strng{fullhash}{d9c4d08a358107ae5ebaccc80a0da105}
+      \strng{fullhashraw}{d9c4d08a358107ae5ebaccc80a0da105}
+      \strng{bibnamehash}{d9c4d08a358107ae5ebaccc80a0da105}
+      \strng{authorbibnamehash}{d9c4d08a358107ae5ebaccc80a0da105}
+      \strng{authornamehash}{d9c4d08a358107ae5ebaccc80a0da105}
+      \strng{authorfullhash}{d9c4d08a358107ae5ebaccc80a0da105}
+      \strng{authorfullhashraw}{d9c4d08a358107ae5ebaccc80a0da105}
+      \strng{editorbibnamehash}{5063e50fcb4b3cbfaee9d17cf84865f8}
+      \strng{editornamehash}{5063e50fcb4b3cbfaee9d17cf84865f8}
+      \strng{editorfullhash}{5063e50fcb4b3cbfaee9d17cf84865f8}
+      \strng{editorfullhashraw}{5063e50fcb4b3cbfaee9d17cf84865f8}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Classical evolutionary game theory has typically considered populations within which randomly selected pairs of individuals play games against each other, and the resulting payoff functions are linear. These simple functions have led to a number of pleasing results for the dynamic theory, the static theory of evolutionarily stable strategies, and the relationship between them. We discuss such games, together with a basic introduction to evolutionary game theory, in Section 1. Realistic populations, however, will generally not have these nice properties, and the payoffs will be nonlinear. In Section 2 we discuss various ways in which nonlinearity can appear in evolutionary games, including pairwise games with strategy-dependent interaction rates, and playing the field games, where payoffs depend upon the entire population composition, and not on individual games. In Section 3 we consider multiplayer games, where payoffs are the result of interactions between groups of size greater than two, which again leads to nonlinearity, and a breakdown of some of the classical results of Section 1. Finally in Section 4 we summarise and discuss the previous sections.}
+      \field{booktitle}{Advances in {{Dynamic}} and {{Evolutionary Games}}}
+      \field{isbn}{978-3-319-28012-7 978-3-319-28014-1}
+      \field{langid}{english}
+      \field{title}{Nonlinear and {{Multiplayer Evolutionary Games}}}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{95\bibrangedash 115}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1007/978-3-319-28014-1_5
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\RQ3XKX3T\Broom and Rychtář - 2016 - Nonlinear and Multiplayer Evolutionary Games.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-319-28014-1_5
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-319-28014-1_5
+      \endverb
+    \endentry
+    \entry{brauerMathematicalModelsPopulation2012}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=cce7419708114ddcc3d5832a90fd28b5}{%
+           family={Brauer},
+           familyi={B\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod}}}%
+        {{hash=21767f5711474b994ee01f850a87202b}{%
+           family={Castillo-Chavez},
+           familyi={C\bibinithyphendelim C\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=21767f5711474b994ee01f850a87202b}{%
+           family={Castillo-Chavez},
+           familyi={C\bibinithyphendelim C\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York Springer e-books}%
+      }
+      \strng{namehash}{b401291f961706acdadacf1f8fbaae08}
+      \strng{fullhash}{07d1ded2b3fd9c8f7bcba8b7534778a0}
+      \strng{fullhashraw}{07d1ded2b3fd9c8f7bcba8b7534778a0}
+      \strng{bibnamehash}{b401291f961706acdadacf1f8fbaae08}
+      \strng{authorbibnamehash}{b401291f961706acdadacf1f8fbaae08}
+      \strng{authornamehash}{b401291f961706acdadacf1f8fbaae08}
+      \strng{authorfullhash}{07d1ded2b3fd9c8f7bcba8b7534778a0}
+      \strng{authorfullhashraw}{07d1ded2b3fd9c8f7bcba8b7534778a0}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This textbook provides an introduction to the field of mathematical biology through the integration of classical applications in ecology with more recent applications to epidemiology, particularly in the context of spread of infectious diseases. It integrates modeling, mathematics, and applications in a semi-rigorous way, stating theoretical results and giving references but not necessarily giving detailed proofs, providing a solid introduction to the field to undergraduates (junior and senior level), graduate students in applied mathematics, ecology, epidemiology or evolutionary biology, sustainability scientists, and to researchers who must routinely read the practical and theoretical results that come from modeling in ecology and epidemiology. This new edition has been updated throughout. In particular the chapters on epidemiology have been updated and extended considerably, and there is a new chapter on spatially structured populations that incorporates dispersal. The number of problems has been increased and the number of projects has more than doubled, in particular those stressing connections to data. In addition some examples, exercises, and projects include use of Maple and Matlab. Review of first edition: "A strength of the book is the large number of biologically-motivated problem sets. These and the references to the original biological papers would be valuable resources for an instructor." (UK Nonlinear News, 2001)}
+      \field{edition}{2nd edition}
+      \field{isbn}{978-1-4614-1686-9}
+      \field{langid}{english}
+      \field{number}{40}
+      \field{series}{Texts in {{Applied Mathematics}}}
+      \field{title}{Mathematical Models in Population Biology and Epidemiology}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\N39AFC2G\Brauer et al. - 2012 - Mathematical models in population biology and epidemiology.pdf
+      \endverb
+    \endentry
+    \entry{hendrikANALYSISGEOGRAPHICVARIATION}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=cb4dd4b6b1a3961ba2e1480a2ca4e448}{%
+           family={Hendrik},
+           familyi={H\bibinitperiod},
+           given={Benoni},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{cb4dd4b6b1a3961ba2e1480a2ca4e448}
+      \strng{fullhash}{cb4dd4b6b1a3961ba2e1480a2ca4e448}
+      \strng{fullhashraw}{cb4dd4b6b1a3961ba2e1480a2ca4e448}
+      \strng{bibnamehash}{cb4dd4b6b1a3961ba2e1480a2ca4e448}
+      \strng{authorbibnamehash}{cb4dd4b6b1a3961ba2e1480a2ca4e448}
+      \strng{authornamehash}{cb4dd4b6b1a3961ba2e1480a2ca4e448}
+      \strng{authorfullhash}{cb4dd4b6b1a3961ba2e1480a2ca4e448}
+      \strng{authorfullhashraw}{cb4dd4b6b1a3961ba2e1480a2ca4e448}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{{{AN ANALYSIS OF GEOGRAPHIC VARIATION IN THE ANTIPREDATOR ADAPTATIONS OF THE GUPPY}}, {{POECILIA RETICULATA}}}
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\M7XC5HLK\Hendrik - AN ANALYSIS OF GEOGRAPHIC VARIATION IN THE ANTIPREDATOR ADAPTATIONS OF THE GUPPY, POECILIA RETICULAT.pdf
+      \endverb
+    \endentry
+    \entry{reznickExperimentalStudiesEvolution2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=2ad015b339e95f93a09259f313a6275b}{%
+           family={Reznick},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima N.},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=36340cef535c444ac560a098f483b6a2}{%
+           family={Travis},
+           familyi={T\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{96ddcbf90dedb0980e6a9bdf945df657}
+      \strng{fullhash}{96ddcbf90dedb0980e6a9bdf945df657}
+      \strng{fullhashraw}{96ddcbf90dedb0980e6a9bdf945df657}
+      \strng{bibnamehash}{96ddcbf90dedb0980e6a9bdf945df657}
+      \strng{authorbibnamehash}{96ddcbf90dedb0980e6a9bdf945df657}
+      \strng{authornamehash}{96ddcbf90dedb0980e6a9bdf945df657}
+      \strng{authorfullhash}{96ddcbf90dedb0980e6a9bdf945df657}
+      \strng{authorfullhashraw}{96ddcbf90dedb0980e6a9bdf945df657}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Guppies in Trinidad range across aquatic environments with fish communities that vary in risk of predation. These communities are often discrete, separated by waterfalls, with high-predation communities downstream and low-predation communities upstream. This gradient is repeated in many rivers; in each one, we see the same divergence between guppy populations in life history, behavior, morphology, and physiology. We have shown that the agent of selection on the life history, behavior, and physiology in low-predation communities is high population density and the cascade of ecological effects that stems from it. In effect, guppy populations modify their ecosystem and, in so doing, impose selection on themselves and shape their own evolution, which further changes the ecosystem. Evolution unfolds rapidly in this system, which has enabled us to study the dynamics of the process, not just its end points. Those studies enable us to answer some very general questions in ecology and evolutionary biology.}
+      \field{day}{2}
+      \field{issn}{1543-592X, 1545-2069}
+      \field{journaltitle}{Annual Review of Ecology, Evolution, and Systematics}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{1}
+      \field{shortjournal}{Annu. Rev. Ecol. Evol. Syst.}
+      \field{title}{Experimental {{Studies}} of {{Evolution}} and {{Eco-Evo Dynamics}} in {{Guppies}} ( {{{\mkbibemph{Poecilia}}}}{\mkbibemph{ Reticulata}} )}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{50}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{335\bibrangedash 354}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1146/annurev-ecolsys-110218-024926
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\ETKGYZY4\Reznick and Travis - 2019 - Experimental Studies of Evolution and Eco-Evo Dynamics in Guppies ( Poecilia reticulata ).pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev-ecolsys-110218-024926
+      \endverb
+      \verb{url}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev-ecolsys-110218-024926
+      \endverb
+    \endentry
+    \entry{lopezRelevanciaModeloPiedra2024}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=c35cf8c28742cb8cf7dccb131e1975c8}{%
+           family={López},
+           familyi={L\bibinitperiod},
+           given={Olga\bibnamedelimb Carolina\bibnamedelima González},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de los Andes}%
+      }
+      \list{location}{1}{%
+        {Bogotá, Colombia}%
+      }
+      \strng{namehash}{c35cf8c28742cb8cf7dccb131e1975c8}
+      \strng{fullhash}{c35cf8c28742cb8cf7dccb131e1975c8}
+      \strng{fullhashraw}{c35cf8c28742cb8cf7dccb131e1975c8}
+      \strng{bibnamehash}{c35cf8c28742cb8cf7dccb131e1975c8}
+      \strng{authorbibnamehash}{c35cf8c28742cb8cf7dccb131e1975c8}
+      \strng{authornamehash}{c35cf8c28742cb8cf7dccb131e1975c8}
+      \strng{authorfullhash}{c35cf8c28742cb8cf7dccb131e1975c8}
+      \strng{authorfullhashraw}{c35cf8c28742cb8cf7dccb131e1975c8}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{spanish}
+      \field{title}{La relevancia del modelo de piedra, papel o tijera en la preservación de la biodiversidad}
+      \field{type}{Proyecto Final}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\JDNRDWNS\(11) Olga Tesis 2024.pdf
+      \endverb
+    \endentry
+    \entry{bergeronEvolutionGermlineMutation2023}{article}{}{}
+      \name{author}{14}{}{%
+        {{hash=bbaa89aceaa315161ba5a8a97cb9e1f9}{%
+           family={Bergeron},
+           familyi={B\bibinitperiod},
+           given={Lucie\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5c1d0f827e23e62787cd973bb14719ce}{%
+           family={Besenbacher},
+           familyi={B\bibinitperiod},
+           given={Søren},
+           giveni={S\bibinitperiod}}}%
+        {{hash=90ab64ce7faaeca4658fd432e4cbd876}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Jiao},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f7df454ffedf523e12466259175e3d87}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Panyi},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a2d73fde26d801fc46e026eb542f58e8}{%
+           family={Bertelsen},
+           familyi={B\bibinitperiod},
+           given={Mads\bibnamedelima Frost},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=42a5edeb98c62564a34ec4566432a196}{%
+           family={Quintard},
+           familyi={Q\bibinitperiod},
+           given={Benoit},
+           giveni={B\bibinitperiod}}}%
+        {{hash=64616b52f80f259cfd9775fe6715bca8}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={Joseph\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=077cc12e6eec9e2eac1244dfee04ff72}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhipeng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0d6382d46f51d68aabfb10c3fec6ea18}{%
+           family={St.\bibnamedelimi Leger},
+           familyi={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Judy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e3a4dc742818326ef2be65883f49e5cf}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={Changwei},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d5303db03615d0df793b439d0c04c36d}{%
+           family={Stiller},
+           familyi={S\bibinitperiod},
+           given={Josefin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=80a955408efafbae040f19b3954bfd1c}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={M.\bibnamedelimi Thomas\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=9f9f7c525e4b0212b0d4b205d84037d9}{%
+           family={Schierup},
+           familyi={S\bibinitperiod},
+           given={Mikkel\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=74a30aa42b065bdd8736cff63f2d0e1c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Guojie},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{4965aa6a25f7513870749451ef1a1587}
+      \strng{fullhash}{23a124799161e55f10e14528df8af07a}
+      \strng{fullhashraw}{23a124799161e55f10e14528df8af07a}
+      \strng{bibnamehash}{4965aa6a25f7513870749451ef1a1587}
+      \strng{authorbibnamehash}{4965aa6a25f7513870749451ef1a1587}
+      \strng{authornamehash}{4965aa6a25f7513870749451ef1a1587}
+      \strng{authorfullhash}{23a124799161e55f10e14528df8af07a}
+      \strng{authorfullhashraw}{23a124799161e55f10e14528df8af07a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The germline mutation rate determines the pace of genome evolution and is an evolving parameter itself 1 . However, little is known about what determines its evolution, as most studies of mutation rates have focused on single species with different methodologies 2 . Here we quantify germline mutation rates across vertebrates by sequencing and comparing the high-coverage genomes of 151 parent–offspring trios from 68 species of mammals, fishes, birds and reptiles. We show that the per-generation mutation rate varies among species by a factor of 40, with mutation rates being higher for males than~for females in mammals and birds, but not in reptiles and fishes. The generation time, age at maturity and species-level fecundity are the key life-history traits affecting this variation among species. Furthermore, species with higher long-term effective population sizes tend to have lower mutation rates per generation, providing support for the drift barrier hypothesis 3 . The exceptionally high yearly mutation rates of domesticated animals, which have been continually selected on fecundity traits including shorter generation times, further support the importance of generation time in the evolution of mutation rates. Overall, our comparative analysis of pedigree-based mutation rates provides ecological insights on the mutation rate evolution in vertebrates.}
+      \field{day}{9}
+      \field{issn}{0028-0836, 1476-4687}
+      \field{journaltitle}{Nature}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{7951}
+      \field{shortjournal}{Nature}
+      \field{title}{Evolution of the Germline Mutation Rate across Vertebrates}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{615}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{285\bibrangedash 291}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/s41586-023-05752-y
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\TUUGFXUZ\Bergeron et al. - 2023 - Evolution of the germline mutation rate across vertebrates.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41586-023-05752-y
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41586-023-05752-y
+      \endverb
+    \endentry
+    \entry{kottlerAdenylateCyclase52015}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=f8c0db4baef5a2d2048b8ae79cf4441e}{%
+           family={Kottler},
+           familyi={K\bibinitperiod},
+           given={Verena\bibnamedelima A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6b0d576aa9012968dc67c0215a326f02}{%
+           family={Künstner},
+           familyi={K\bibinitperiod},
+           given={Axel},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9a44ea04baa55a0a00571bf4e7fc440d}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Iris},
+           giveni={I\bibinitperiod}}}%
+        {{hash=2545b793162e6e235f4ddb8fe8c0c152}{%
+           family={Flötenmeyer},
+           familyi={F\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1212b58416ea5cd4fbb0ba179d2d4768}{%
+           family={Langenecker},
+           familyi={L\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ca106a346529a421beb5d49bf989e098}{%
+           family={Hoffmann},
+           familyi={H\bibinitperiod},
+           given={Margarete},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8e387e5a0d6e215fdd31354017da78d3}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Eshita},
+           giveni={E\bibinitperiod}}}%
+        {{hash=fa761ae277d59727373fcb407a79f038}{%
+           family={Weigel},
+           familyi={W\bibinitperiod},
+           given={Detlef},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ba78044498812baccbe9300450eec0ab}{%
+           family={Dreyer},
+           familyi={D\bibinitperiod},
+           given={Christine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a8c0da129387030ef95b4adac5f2b19}
+      \strng{fullhash}{52f3488cea4b80b5143493ae85feb823}
+      \strng{fullhashraw}{52f3488cea4b80b5143493ae85feb823}
+      \strng{bibnamehash}{5a8c0da129387030ef95b4adac5f2b19}
+      \strng{authorbibnamehash}{5a8c0da129387030ef95b4adac5f2b19}
+      \strng{authornamehash}{5a8c0da129387030ef95b4adac5f2b19}
+      \strng{authorfullhash}{52f3488cea4b80b5143493ae85feb823}
+      \strng{authorfullhashraw}{52f3488cea4b80b5143493ae85feb823}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Guppies (Poecilia reticulata) are colorful fish that have attracted the attention of pigmentation researchers for almost a century. Here, we report that the blond phenotype of the guppy is caused by a spontaneous mutation in the guppy ortholog of adenylate cyclase 5 (adcy5). Using double digest restriction site-associated DNA sequencing (ddRADseq) and quantitative trait locus (QTL) mapping, we linked the blond phenotype to a candidate region of 118 kb, in which we subsequently identified a 2-bp deletion in adcy5 that alters splicing and leads to a premature stop codon. We show that adcy5, which affects life span and melanoma growth in mouse, is required for melanophore development and formation of male orange pigmentation traits in the guppy. We find that some components of the male orange pattern are particularly sensitive to loss of Adcy5 function. Our work thus reveals a function for Adcy5 in patterning of fish color ornaments.}
+      \field{issn}{1755-1471, 1755-148X}
+      \field{journaltitle}{Pigment Cell \& Melanoma Research}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{5}
+      \field{shortjournal}{Pigment Cell Melanoma Res}
+      \field{title}{\mkbibemph{Adenylate Cyclase 5} Is Required for Melanophore and Male Pattern Development in the Guppy ( {{\mkbibemph{Poecilia}}}\mkbibemph{ Reticulata} )}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{28}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{545\bibrangedash 558}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1111/pcmr.12386
+      \endverb
+      \verb{file}
+      \verb C:\Users\salom\Zotero\storage\9X5T9Y6W\Kottler et al. - 2015 - Adenylate cyclase 5 is required for melanophore and male pattern development in the guppy ( .pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/pcmr.12386
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/pcmr.12386
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

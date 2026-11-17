@@ -1,0 +1,10 @@
+@article{cushing1985estrous,
+  author  = {Cushing, B. S.},
+  title   = {Estrous mice and vulnerability to weasel predation},
+  journal = {Ecology},
+  year    = {1985},
+  volume  = {66},
+  number  = {6},
+  pages   = {1976--1978},
+  doi     = {10.2307/2937391}
+}

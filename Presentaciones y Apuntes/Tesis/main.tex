@@ -1,0 +1,119 @@
+\documentclass[12pt,letterpaper]{article}
+
+% =============================================================
+% TIPOGRAFÍA Y LENGUA
+% =============================================================
+% El PDF de referencia usa Computer Modern/CM-Super en T1.
+% No cargar lmodern, times, newtxtext, libertinus, etc. si se quiere
+% conservar la apariencia original.
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{indentfirst}
+
+% =============================================================
+% GEOMETRÍA: medidas reconstruidas del PDF de referencia
+% =============================================================
+\usepackage[margin=0.85in]{geometry}
+\setlength{\footskip}{20pt}
+
+% =============================================================
+% PAQUETES GENERALES
+% =============================================================
+\usepackage{graphicx}
+\usepackage{wrapfig}   % en el preámbulo
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs}
+\usepackage{csquotes}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{physics}
+\usepackage{amssymb}
+
+%Tablas
+
+\usepackage{multirow}
+\usepackage{textcomp}      % Para el símbolo de grado masculino
+% =============================================================
+% ÍNDICE: reproduce tamaño, espaciado y numeración del PDF
+% =============================================================
+\usepackage{tocloft}
+\renewcommand{\cfttoctitlefont}{\hspace*{226.903bp}\large\bfseries}
+\renewcommand{\cftaftertoctitle}{}
+\setlength{\cftbeforetoctitleskip}{0pt}
+\setlength{\cftaftertoctitleskip}{10pt}
+\setcounter{tocdepth}{3}
+
+% =============================================================
+% BIBLIOGRAFÍA NUMÉRICA
+% =============================================================
+\usepackage[
+backend=biber, 
+style=numeric, 
+sorting=none,
+maxnames=2, % máximo autores mostrados 
+minnames=1, % usa et al. 
+giveninits=true, % iniciales en vez de nombres completos 
+doi=true, 
+url=false, 
+isbn=false
+]{biblatex} 
+\addbibresource{referencias.bib}
+
+\input{config}
+
+\begin{document}
+
+% ---------- Portada ----------
+\input{frontmatter/portada}
+\clearpage
+
+% ---------- Dedicatoria ----------
+\input{frontmatter/dedicatoria}
+\clearpage
+
+% En el documento de referencia la página de agradecimientos funciona
+% como página lógica 1, aunque el número se oculta. Así el índice queda
+% numerado como página 2 y la introducción como página 3.
+\setcounter{page}{1}
+
+
+% ---------- Índice ----------
+\tableofcontents
+\clearpage
+
+% ---------- Lista de Figuras ----------
+\listoffigures
+\clearpage
+
+
+% ---------- Cuerpo ----------
+\input{capitulos/00_resumen}
+\clearpage
+\input{capitulos/01_introduccion}
+\clearpage
+\input{capitulos/02_fundamentos}
+\clearpage
+\input{capitulos/03_metodologia}
+\clearpage
+\input{capitulos/04_resultados}
+\input{capitulos/05_conclusiones}
+\clearpage
+% ---------- Agradecimientos ----------
+\input{frontmatter/agradecimientos}
+\clearpage
+
+\input{capitulos/06_Apendice.tex}
+
+%---Firma Directa ---
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.45\linewidth]{Imagenes/firmadirector.png}\\
+
+\end{figure}
+
+% ---------- Referencias ----------
+\clearpage
+\printbibliography[heading=bibintoc, title={References}]
+\end{document}

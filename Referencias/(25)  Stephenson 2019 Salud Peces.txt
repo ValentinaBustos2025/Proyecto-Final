@@ -1,0 +1,10 @@
+@article{stephenson2019,
+  author  = {J. F. Stephenson and M. Stevens and J. Troscianko and J. A. Boughman},
+  title   = {The size, symmetry, and color saturation of a male guppy's ornaments forecast his resistance to parasites},
+  journal = {The American Naturalist},
+  volume  = {194},
+  number  = {4},
+  pages   = {513--526},
+  year    = {2019},
+  doi     = {10.1086/705325}
+}

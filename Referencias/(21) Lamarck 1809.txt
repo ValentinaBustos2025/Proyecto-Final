@@ -1,0 +1,7 @@
+@book{lamarckPhilosophieZoologique1809,
+  author    = {Lamarck, Jean-Baptiste},
+  title     = {Philosophie zoologique, ou Exposition des considérations relatives à l'histoire naturelle des animaux},
+  year      = {1809},
+  publisher = {Dentu},
+  address   = {Paris}
+}

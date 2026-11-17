@@ -1,0 +1,204 @@
+\clearpage 
+
+\section{Appendix}
+
+
+
+\subsection*{Appendix A: Examples of Sexual Signals and Predation Risk}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lllll}
+\textbf{Signal} & \textbf{Prey} & \textbf{Sex} & \textbf{Predator} \\ \hline \hline
+\multirow{5}{*}{Acoustic} 
+  & &  & Bat, \textit{Trachops cirrhosus} \\
+  & &  & Opossum, \textit{Philander opossum}  \\
+  & Frog, \textit{Physalaemus pustulosus}  & M & Bull frog, \textit{Leptodactylus pentadactylus} \\
+  &  & & Crab, \textit{Potamosarcinus richmondi}  \\
+  & Cricket, \textit{Gryllodes integer} & F & Gecko, \textit{Hemidactylus tursicus} \\ \hline
+\multirow{3}{*}{Visual} 
+  & Guppy, \textit{Poecilia reticulata} & M & Various piscivores, e.g. Cichlidae.\\
+  &&&Cyprinodontidae \\
+  & Firefly, \textit{Photinus collustrans} & F & Spiders, Lycosidae  \\
+  & Fireflies, e.g. \textit{Photinus} spp. & M & Fireflies (F), \textit{Photuris} spp. \\ \hline
+\multirow{2}{*}{Olfactory} 
+  & Mouse, \textit{Peromyscus maniculatus bairdi} & F & Weasel, \textit{Mustela nivalis} \\
+  & Stink bug, \textit{Nezara viridula} & M & Tachinid fly, \textit{Trichopoda pennipes} \\ \hline
+\end{tabular}
+\caption{Examples of sexual signals that increase predation risk M for Males and F for Females by Magnhagen \cite{magnhagen1991}.}
+\label{tab:1}
+\end{table}
+
+\subsection*{Appendix B: Code for Moran Process Simulation}
+\label{app:code_moran}
+
+The following Python 3.11.4 scripts detail the computational implementation of the Moran process and the mutation algorithms described in the Methodology. First, we define the functions for population initialization and the two mutation models:
+
+\begin{verbatim}
+def populationDef(N, p):
+    """Creates a population of size N with proportion p of type A."""
+    if p == 0: 
+        population = ['B'] * (N - 1) + ['A']
+    elif p == 1:
+        population = ['A'] * (N - 1) + ['B']
+    else:
+        population = ['A'] * int(p * N) + ['B'] * int((1 - p) * N)
+    return population
+
+def mutacionPeriodica(generacion, intervalo, population):
+    """Applies a reversible mutation every `intervalo` generations."""
+    if generacion % intervalo == 0:
+        idx = np.random.randint(len(population))
+        population[idx] = "B" if population[idx] == "A" else "A"
+    return population
+    
+def mutacionPoisson(population, mu):
+    """Applies mutations to the population following a Poisson distribution."""
+    lam = len(population) * (1 / mu)                      
+    k = stats.poisson.rvs(lam)  # Actual number of mutations
+    if k == 0:
+        return population
+        
+    k = min(k, len(population))                   
+    idxs = np.random.choice(len(population), size=k, replace=False)
+
+    for idx in idxs:
+        population[idx] = "B" if population[idx] == "A" else "A"
+    
+    return population
+\end{verbatim}
+
+Finally, the core dynamic simulation function executes the Moran process, incorporating the fitness calculations based on the sexual success and predation parameters, and applying the chosen mutation regime:
+
+\begin{verbatim}
+def MPFitDinamico(N, p, eta_d, T, g, poisson, s_a, s_b, d_a, d_b, mu):
+    """
+    Simulates a Moran process for a population of size N, with an initial 
+    proportion p of type A individuals, over T generations.
+    Returns the final proportion of A, the history, and the fitnesses.
+    """
+    population = populationDef(N, p)
+    history = []
+    p0 = p 
+    
+    # Initial fitness calculations
+    fit_a = (1 + s_a * (1 - eta_d)) / (1 + d_a * eta_d * p0)
+    fit_b = (1 + s_b * (1 - eta_d)) / (1 + d_b * eta_d * (1 - p0))
+
+    for t in range(T):
+        # Reproduction: choose based on fitness weights
+        reproducer = random.choices(
+            population,
+            weights=[fit_a if x == 'A' else fit_b for x in population]
+        )[0]
+        
+        # Death: choose randomly
+        to_die = random.choices(population)[0]
+        
+        # Replace the dead individual with the offspring
+        population[population.index(to_die)] = reproducer 
+        
+        # Apply mutations if applicable
+        if g > 1:  # Periodic mutation
+            population = mutacionPeriodica(t, g, population)
+        elif poisson: # Poisson mutation
+            population = mutacionPoisson(population, mu)
+            
+        # Update frequency of A and record history
+        p0 = population.count('A') / len(population)
+        history.append(p0)
+        
+        # Update fitnesses for the next generation
+        fit_a = (1 + s_a * (1 - eta_d)) / (1 + d_a * eta_d * p0)
+        fit_b = (1 + s_b * (1 - eta_d)) / (1 + d_b * eta_d * (1 - p0))
+
+    return round(population.count('A') / len(population), 1), history, fit_a, fit_b
+\end{verbatim}
+
+\subsection*{Appendix C: Calculation of biological parameters}
+\label{sec: Appendix Sa, Sb, Da, Db, mutation}
+
+\subsubsection*{Relative Sexual Success and Predation Parameters}
+
+The sexual success parameters \((S_a=0.86)\) and \((S_b=0.53)\) were estimated from the experimental observations reported by Houde \cite{houdeMATECHOICEBASED1987}\footnote{In Houde's experiments, females were presented with males from four different orangeness classes (A: most orange, to D: least orange). The time to mating (from the first display to copulation) was recorded and ranked within each trial (1 = fastest, 4 = slowest). The average relative sexual success was then calculated for the most attractive (A) and least attractive (D) phenotypes, which are fully compiled in Table 1 of \cite{houdeMATECHOICEBASED1987}. This yields \(D_a = 0.86\) for class A and \(S_b = 0.53\) for class D.}. Specifically, the relative mating performance of the most conspicuous (class A) and least conspicuous (class D) males was quantified using their mating-time rankings across ten experimental trials. These rankings were converted into normalized relative scores according to equation \ref{eq:S}. \\ 
+
+\begin{equation}
+    S=\frac{1}{10}\sum_{i=1}^{10}\frac{5-R_i}{4}
+    \label{eq:S}
+\end{equation}
+
+
+where \((R_i)\) represents the mating-time rank in trial \((i)\), with lower ranks corresponding to faster mating. The resulting values were interpreted as relative reproductive-success indices rather than directly measured mating probabilities. For modeling purposes, these normalized scores were assigned probability-like weights within the fitness functions, providing a phenomenological representation of the reproductive advantage associated with each phenotype.\\ 
+
+Similarly, the predation parameters \((D_a=0.107)\) and \((D_b=0.023)\) were estimated from the predator-preference experiments conducted by Godin and McDonough \cite{godinPredatorPreferenceBrightly2003}  \footnote{In the experiments of Godin and McDonough, the cichlid predators attacked the brightly colored males first in approximately \(80\%\) of the trials, whereas they attacked the drab males first in approximately \(20\%\). Once an attack was initiated, the conditional probability of capture was calculated as the number of males captured divided by the total number of males attacked. For the brightly colored males, this probability was \(0.137\), while for the drab males it was \(0.103\). Multiplying these respective probabilities yields the parameters \(D_a\) and \(D_b\).}. These values were obtained by combining the probability of being attacked first with the conditional probability of capture following that initial attack using equation \ref{eq:D}. \\ 
+
+\begin{equation}
+    P(\text{initial attack and capture})=
+P(\text{attacked first})
+P(\text{captured}\mid\text{attacked first}).
+    \label{eq:D}
+\end{equation}
+
+
+The resulting quantities represent relative indices of vulnerability under the experimental conditions, rather than universal probabilities of mortality in natural populations. Accordingly, they were incorporated into the fitness functions as probability-like weights to represent differences in predation costs between conspicuous and less conspicuous male guppies. This approach preserves the relative effects reported experimentally while providing dimensionless parameters suitable for the evolutionary model. \\ 
+
+
+
+\subsubsection*{Mutation}
+
+Two alternative mutation mechanisms were considered to introduce stochastic transitions between the modeled phenotypes a \textbf{periodic mutation scheme} and a \textbf{Poisson-based mutation process}. \\ 
+
+In the periodic scheme, one individual is randomly selected to undergo a reversible transition between phenotypes A and B after a prescribed number of simulation iterations. In the Poisson scheme, the number of mutation events is sampled from a Poisson distribution,
+
+\begin{equation}
+    P(K=k)=\frac{e^{-\lambda}\lambda^k}{k!},
+    \label{eq:poisson}
+\end{equation}
+
+where $\lambda$ represents the expected number of mutation events over the specified time interval. \\ 
+
+To establish a biologically motivated reference timescale, the average germline mutation rate reported for fishes by Bergeron et al. \cite{bergeronEvolutionGermlineMutation2023} was adopted:
+
+\begin{equation}
+    \mu_{\mathrm{site}}
+    =5.97\times10^{-9}
+    \ \text{mutations per site per generation}.
+\end{equation}
+
+Kottler et al. \cite{kottlerAdenylateCyclase52015} identified a genomic region of approximately $L=118\,000$ base pairs associated with the \textit{blond} pigmentation phenotype in guppies, containing the \textit{adcy5} gene. Assuming a uniform mutation rate across this region, the expected number of mutations per genomic-region copy per generation was approximated as
+
+\begin{equation}
+\begin{aligned}
+    u &= \mu_{\mathrm{site}}L\\
+      &= (5.97\times10^{-9})(118\,000)\\
+      &\approx 7.04\times10^{-4}.
+\end{aligned}
+\label{eq:regional_mutation_rate}
+\end{equation}
+
+Since this value is small, the reciprocal provides an approximation to the mean waiting time for a mutation within one copy of the considered genomic region:
+
+\begin{equation}
+    \mu^*=\frac{1}{u}
+    \approx 1.42\times10^3
+    \ \text{generations}.
+    \label{eq:mutation}
+\end{equation}
+
+For a population containing $N$ individuals, the Poisson model assumes one effective copy of the considered region per individual and independent mutation events. Under these assumptions, the expected number of regional mutations per generation is
+
+\begin{equation}
+    \lambda_{\mathrm{gen}}
+    =Nu
+    =\frac{N}{\mu^*}.
+    \label{eq:poisson_parameter}
+\end{equation}
+
+Accordingly, the corresponding population-level mean waiting time between mutation events is approximately $\mu^*/N$ generations, rather than $\mu^*$.  The periodic and Poisson schemes therefore represent different temporal distributions of mutation events. To compare them at equivalent average mutation frequencies, the interval between periodic events must be chosen consistently with the expected population-level mutation rate. \\ 
+
+In the computational simulations, mutation events were applied as reversible transitions between phenotypes A and B. These transitions provide a simplified representation of genetic variation and do not explicitly resolve the underlying molecular mechanisms. \\ 
+
+Importantly, mutations within the considered genomic region do not necessarily produce observable changes between the two modeled phenotypes. Consequently, the estimated mutation timescale should not be interpreted as a directly measured phenotype-switching rate. Values on the order of $10^3$--$10^4$ generations provide an exploratory range for examining the sensitivity of the models to mutation frequency. \\ 
+
+Furthermore, the biological mutation estimates are expressed per generation, whereas the Moran process advances through individual reproduction--replacement events. A conversion between these timescales is required for a quantitatively calibrated mutation process. The mutation mechanisms implemented here are therefore treated as exploratory extensions rather than direct predictions of mutation occurrence in natural guppy populations.
+
